@@ -1,17 +1,27 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    componenteFormativo: 'Acondicionamiento y supervisión en poscosecha',
+    descripcionCurso:
+      'Durante la poscosecha se realizan actividades como recepción, separación, selección y clasificación; que permiten acondicionar los productos cosechados para realizar operaciones especiales como recubrimiento y encerados que brindan mayor protección y mejoran la presentación, para luego ser empacados con su respectivo etiquetado y rotulado con información para el consumidor. Siendo importante la trazabilidad durante la cadena de producción y comercialización.',
+    fondoBannerPrincipal: require('@/assets/curso/images/header/fondo-banner-principal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/images/header/banner-principal.png'),
+    fondoBannerInterno: require('@/assets/curso/images/header/interno.svg'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/images/header/2.svg'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/images/header/1.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/images/header/3.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-4'],
+        imagen: require('@/assets/curso/images/header/4.svg'),
       },
     ],
   },
@@ -24,34 +34,50 @@ export default {
       },
       {
         nombreRuta: 'introduccion',
-        icono: 'fas fa-info-circle',
+        icono: 'fas fa-info',
         titulo: 'Introducción',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema1',
+        icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Poscosecha',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
       },
-
       {
         nombreRuta: 'tema2',
+        icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Acondicionamiento',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
+        icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Recubrimientos y encerados',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Etiquetado',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema5',
+        icono: 'far fa-file-alt',
+        numero: '5',
+        titulo: 'Almacenamiento',
+        desarrolloContenidos: true,
+      },
+      {
+        nombreRuta: 'tema6',
+        icono: 'far fa-file-alt',
+        numero: '6',
+        titulo: 'Trazabilidad',
         desarrolloContenidos: true,
       },
     ],
@@ -84,11 +110,6 @@ export default {
         nombreRuta: 'referencias',
       },
       {
-        icono: 'fas fa-file-pdf',
-        titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
-      },
-      {
         icono: 'fas fa-download',
         titulo: 'Descargar material',
         download: 'downloads/material.zip',
@@ -100,128 +121,235 @@ export default {
       },
     ],
   },
-  complementario: [
+  referencias: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      referencia:
+        'Agencia Japonesa de Cooperación Internacional. (s.f.). VI. Manejo y cría de ganado bovino.',
+      link:
+        'https://www.jica.go.jp/project/bolivia/3065022E0/04/pdf/4-3-1_10.pdf',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      referencia:
+        'Bertucci, A. (s.f.). Anatomía y fisiología animal. Facultad de Ciencias Agrarias.',
+      link:
+        'https://www.fca-ude.edu.uy/upload/Materiales/ANATOMIA_Y_FISIOLOGIA-0113-0003.pdf',
+    },
+    {
+      referencia:
+        'Instituto Colombiano Agropecuario. (2006). Bienestar Animal: Nuevo reto para la ganadería',
+      link:
+        'https://www.ica.gov.co/areas/pecuaria/servicios/enfermedades-animales',
+    },
+    {
+      referencia:
+        'Instituto Interamericano de Cooperación para la Agricultura (IICA). (2009). Manual de Buenas Prácticas en Explotaciones Ganaderas de Carne Bovina.',
+      link: 'https://www.biopasos.com/documentos/048.pdf',
+    },
+    {
+      referencia:
+        'Ministerio de Agricultura. (s.f.). Capítulo 2. Movilización de ganado',
+      link:
+        'https://www.minagricultura.gov.co/Normatividad/Paginas/Decreto-1071-2015/CAPITULO-2-Movilizacion-de-Ganado.aspx',
+    },
+    {
+      referencia:
+        'Salas, M. & Manteca, X. (2016). Evaluación del bienestar en animales de zoológico: indicadores basados en el animal. Centro de educación en bienestar de animales de zoológico.',
+      link: 'http://www.zawec.org/media/com_lazypdf/pdf/Ficha%20ZAWEC%204.pdf',
+    },
+    {
+      referencia:
+        'Tafur Garzón, A. & Acosta Barbosa J.M. (2006). Bienestar Animal: Nuevo reto para la ganadería. ICA.',
+      link:
+        'https://www.ica.gov.co/getattachment/79b98e64-a258-46d5-9ce1-1375a8312434/Publicacion-20.aspx',
+    },
+    {
+      referencia:
+        'Universidad de Córdoba. (s.f.). Tema 23. El manejo de los animales domésticos enfocado hacia la protección animal. Control del comportamiento, manejo y modos de contención.',
+      link:
+        'http://www.uco.es/organiza/departamentos/prod-animal/economia/aula/img/pictorex/06_07_09_TEMA_23.pdf',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Bacteridiano',
+      significado:
+        'carbunco o ántrax es una enfermedad infecciosa zoonótica, causada por una bacteria formadora de esporas.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Encefalomielitis',
+      significado:
+        'es una virosis equina transmitida por moscos causando inflamación de cerebro en animales la ser zoonótica.',
+    },
+    {
+      termino: 'Enfermedad',
+      significado:
+        'es la alteración, en su funcionamiento o en su estructura de cualquier parte del organismo animal, causada por la presencia de causas externas o internas del animal, comenzando generalmente con una modificación de la estructura orgánica, que produce una alteración de la función del respectivo órgano.',
+    },
+    {
+      termino: 'Enzootica',
+      significado:
+        'enfermedad presente en una población en un área, granja región etc.',
+    },
+    {
+      termino: 'Infección',
+      significado:
+        'es la exposición a un agente etiológico, la cual puede ir seguida o no de enfermedad, dependiendo del grado de inmunidad del huésped, de si está bien nutrido, si está bajo condiciones de estrés, o si tiene alguna otra infección previa, que le impida hacerle frente a la nueva infección.',
+    },
+    {
+      termino: 'Inflamación',
+      significado:
+        'es un proceso de reacción del organismo hacia una causa irritante, la cual puede ser de origen animado o inanimado. Los animales animados pueden ser los gérmenes patógenos: bacterias o virus, parásitos, etc. Inanimados, como las sustancias químicas y los físicos. Hay síntomas de la inflamación como son: dolor, calor, enrojecimiento, hinchazón y alteración de la función del órgano afectado.',
+    },
+    {
+      termino: 'Micosis',
+      significado:
+        'enfermedad producida por hongos y afecta a cualquier especie.',
+    },
+    {
+      termino: 'Salud',
+      significado:
+        'es el estado en que se encuentra el ser vivo cuando está en completa armonía con el medio.',
+    },
+    {
+      termino: 'Tatuaje',
+      significado:
+        'método de identificación animal, este se realiza en una parte como la oreja o cola.',
+    },
+    {
+      termino: 'Zoonosis',
+      significado:
+        'son las enfermedades de los animales que se transmiten al hombre. Las más frecuentes son: Carbunco, brucelosis, encefalitis equina, anemia infecciosa equina, hidatidosis, leptospirosis, rabia, salmonelosis, sarna, tenias, toxoplasmosis, tuberculosis, etc.',
     },
   ],
-  referencias: [
+  complementario: [
     {
-      referencia: '',
-      link: '',
+      tema: '1. Identificación animal',
+      referencia:
+        'Aula vet. (2021, marzo 22). Terminología Anatómica - Anatomía Veterinaria. [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=cZGVzjbJKgY',
+    },
+    {
+      tema: '2. Anatomía de las especies pecuarias.',
+      referencia:
+        'Agro tendencia. (2020, 29 de octubre). Tecnologías de identificación animal | Agro para el siglo 21. [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=oBd03GITIBM',
+    },
+    {
+      tema: '3. Anatomía de las especies pecuarias.',
+      referencia:
+        'TvAgro. (2018, 25 de septiembre). INCREÍBLES tratamientos alternativos para ANIMALES - TvAgro por Juan Gonzalo Angel. [Video]. YouTube. ',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=qCNc27m-CUk',
+    },
+    {
+      tema: '4. Tratamientos alternativos',
+      referencia:
+        'Senasa Comunica. (2017, 24 de agosto). Bienestar animal. [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=eJymjFBeJNE',
+    },
+    {
+      tema: '5. Registro',
+      referencia:
+        'COASGROP HIJOS DEL CAMPO. (2021, 26 de agosto). Bioseguridad en las explotaciones pecuarias. [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=zgWVX_cWMeo',
     },
   ],
-  creditos: [
-    {
-      titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
-      autores: [
-        {
-          nombre: 'Milady Tatiana Villamil Castellanos',
-          cargo: 'Responsable del Ecosistema',
-          centro: 'Dirección General',
-        },
-        {
-          nombre: 'Olga Constanza Bermúdez Jaimes',
-          cargo: 'Responsable de Línea de Producción',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
-        },
-      ],
-    },
-    {
-      titulo: 'CONTENIDO INSTRUCCIONAL',
-      autores: [
-        {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
-        },
-      ],
-    },
-    {
-      titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
-      autores: [
-        {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de Contenidos Digitales',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador Fullstack',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Actividad Didáctica',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
-        },
-      ],
-    },
-    {
-      titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
-      autores: [
-        {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Jaime Hernan Tejada',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Margarita Marcela Medrano',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
-        }
-      ],
-    },
-  ],
-  creditosAdicionales: {
-    imagenes:
-      'Fotografías y vectores tomados de <a href="https://www.freepik.es/" target="_blank">www.freepik.es</a>, <a href="https://www.shutterstock.com/" target="_blank">www.shutterstock.com</a>, <a href="https://unsplash.com/" target="_blank">unsplash.com </a>y <a href="https://www.flaticon.com/" target="_blank">www.flaticon.com</a>',
-    creativeCommons:
-      'Licencia creative commons CC BY-NC-SA<br><a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" target="_blank">ver licencia</a>',
+  creditos: {
+    liderEquipo: [
+      {
+        nombre: 'María Camila García Santamaría',
+        cargo: 'Líder del equipo',
+        centro: 'Dirección General',
+      },
+    ],
+    contenidoInstruccional: [
+      {
+        nombre: 'Rafael Neftalí Lizcano Reyes',
+        cargo: 'Responsable de Desarrollo Curricular',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'James Dubán Lozano Cuellar',
+        cargo: 'Experto Temático',
+        centro: 'Centro Agropecuario la Granja - Regional Tolima',
+      },
+      {
+        nombre: 'Oscar Absalón Guevara',
+        cargo: 'Diseñador instruccional',
+        centro:
+          'Centro de la Industria, la Empresa y los Servicios - Regional Santander',
+      },
+      {
+        nombre: 'Andrés Felipe Velandia Espitia',
+        cargo: 'Asesor Metodológico',
+        centro: 'Centro de Diseño y Metrología  - Distrito Capital',
+      },
+      {
+        nombre: 'Sandra Patricia Hoyos Sepúlveda',
+        cargo: 'Corrector de estilo',
+        centro: 'Centro de Diseño y Metrología - Distrito Capital',
+      },
+    ],
+    desarrolloProducto: [
+      {
+        nombre: 'Francisco José Lizcano Reyes',
+        cargo: 'Responsable del equipo',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Leyson Fabian Castaño Perez',
+        cargo: 'Soporte organizacional',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
+      },
+      {
+        nombre: 'Marcela Alarcon Granados',
+        cargo: 'Diseño web',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Gustavo Adolfo Marún Suárez',
+        cargo: 'Desarrollo front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Cáceres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Zuleidy María Ruíz Torres',
+        cargo: 'Producción audiovisual',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'Mayra Alejandra Alvarez ',
+        cargo: 'Validación de diseño y contenido',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+    ],
+    gestoresRepositorio: [
+      {
+        nombre: 'Milady Tatiana Villamil Castellanos',
+        cargo: 'Validación y vinculación en plataforma LMS',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
+      },
+    ],
   },
   // creditosInicio: [
   //   {
