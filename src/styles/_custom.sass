@@ -211,6 +211,9 @@
   left: 3px
   top: -19px
 
+.text-secundario
+  color: #ADCE32
+
 .bg_color4
   background-color: #ADCE32
   margin-inline: 2%
@@ -241,6 +244,10 @@
 
 .tarjeta.color-secundario-claro 
     background: rgb(222,235,173) 100%
+    border-radius: 10px
+
+.tarjeta.color-secundario-oscuro 
+    background: #BDD75B
     border-radius: 10px
 
 .tarjeta.color-secundario-claro-sin-bordes 
@@ -766,10 +773,11 @@
     padding: 6% 10% 53% 10%
     bottom: 0    
     transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
-    transform: translateY(calc( 100% - 4.95rem ))
-    background-color: #D7DB8D
+    transform: translateY(calc( 100% - 2.95rem ))
+    background: rgb(11,72,30) 50%
     height: 100% !important
     width: 100% !important
+    opacity: 90%
   .nuevosize1
     position: absolute
     @media (max-width: 1400px)

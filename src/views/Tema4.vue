@@ -23,7 +23,7 @@
           span Identificación de las partes de la etiqueta
         figure
           img.img-t.m-auto.mb-4(src='@/assets/curso/images/tema4/img_2.svg', alt='')
-        figcaption Nota. Ospina Arias, J. C. (2015).
+          figcaption Nota. Ospina Arias, J. C. (2015).
         
     .row.justify-content-center.mb-5
       .col-md-1
@@ -33,52 +33,87 @@
         p.mb-0 El etiquetado genera ventajas tanto para la empresa como para el consumidor; debido a que es multifuncional, además de proporcionar información del producto la cual es indispensable para el consumidor, mediante el etiquetado se puede impulsar las compras por medio de promociones y cupones, incluir recetas y diferentes modos de uso, fortalecer la imagen de la empresa, presentar los distintos sellos de calidad o resaltar los atributos que dan un valor agregado al producto. 
           span.text-bold A continuación, se analizan algunas de sus principales funciones:
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5.text-center
       .col-xl-2.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
               img(src="@/assets/curso/images/tema4/img_4.png", alt="alt")
           .crd_hover_txt--body
-            h4.text-small Diálogo
-            p.mb-0.text-small Establecer un diálogo con el consumidor.
+            h4.mb-3.text-secundario Diálogo
+            p.mb-0.text-white Establecer un diálogo con el consumidor.
 
       .col-xl-2.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/images/tema4/img_4.png", alt="alt")
+              img(src="@/assets/curso/images/tema4/img_5.png", alt="alt")
           .crd_hover_txt--body
-            h4.mb-3 Reporte de ventas semanal
-            p.mb-0 Con estos reportes semanales, podrá encontrar las dificultades que pueda tener algún o algunos vendedores y evitar que se pierdan los clientes fijos. Reportar semanalmente, le permite tener un equipo de ventas fortalecido y bien direccionado, con las correcciones necesarias para lograr las metas de ventas propuestas.
+            h4.mb-3.text-secundario Tiempo
+            p.mb-0.text-white Ahorro de tiempo al consumidor, puesto que le transmite de manera rápida el mensaje que busca.
 
       .col-xl-2.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/images/tema4/img_4.png", alt="alt")
+              img(src="@/assets/curso/images/tema4/img_6.png", alt="alt")
           .crd_hover_txt--body
-            h4.mb-3 Reporte de ventas mensuales
-            p.mb-0 Con este tipo de reportes usted va a hacer un seguimiento específico a su equipo de ventas respecto a sus objetivos empresariales a largo plazo.
+            h4.mb-3.text-secundario Elección
+            p.mb-0.text-white Ahorro de tiempo al consumidor, puesto que le transmite de manera rápida el mensaje que busca.
 
       .col-xl-2.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/images/tema4/img_4.png", alt="alt")
+              img(src="@/assets/curso/images/tema4/img_7.png", alt="alt")
           .crd_hover_txt--body
-            h4.mb-3 Reporte de ventas mensuales
-            p.mb-0 Con este tipo de reportes usted va a hacer un seguimiento específico a su equipo de ventas respecto a sus objetivos empresariales a largo plazo.
+            h4.mb-3.text-secundario Control
+            p.mb-0.text-white Facilitar el control y vigilancia por medio de las fechas de fabricación y de vencimiento, contenido, código de barras.
 
       .col-xl-2.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
-              img(src="@/assets/curso/images/tema4/img_4.png", alt="alt")
+              img(src="@/assets/curso/images/tema4/img_8.png", alt="alt")
           .crd_hover_txt--body
-            h4.mb-3 Reporte de ventas mensuales
-            p.mb-0 Con este tipo de reportes usted va a hacer un seguimiento específico a su equipo de ventas respecto a sus objetivos empresariales a largo plazo.
+            h4.mb-3.text-secundario Indicaciones
+            p.mb-0.text-white Dar indicaciones para el manejo y administración del producto o empaque.
+   
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-7.mb-3
+        .cajon.color-acento-botones.p-3.ps-4.bg_18.mb-4.mb-lg-0
+          p.mt-3.p-1 La información del etiquetado puede estar registrada en uno o más idiomas y es muy común el uso de símbolos o pictogramas como se observa en la siguiente figura, que son regulados y empleados a nivel internacional, proporcionan indicaciones principalmente para la manipulación de acuerdo con las características físicas, químicas del producto. Además, existe una clasificación y simbología para productos peligrosos de acuerdo con diferentes tipos de riesgos, como por ejemplo tóxico, infeccioso, material radiactivo, gas inflamable, líquido inflamable, sólido inflamable, combustión espontánea, gas tóxico, peligro cuando está mojado y peróxido orgánico.
+      .col-lg-5
+        figure
+          img.img-t(src='@/assets/curso/images/tema4/img_11.png', alt='')
 
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-10
+        .titulo-sexto.color-acento-contenido.mb-3
+          h5 Figura 4.
+          span Simbología y pictogramas empleados en el etiquetado
+        figure
+          img.img-t.mb-2(src='@/assets/curso/images/tema4/img_12.png', alt='')
+          figcaption Nota. Ospina Arias, J. C. (2015).
+          
+    .row.justify-content-center.align-items-center.mb-5
+      .col-md-10  
+        .tarjeta-avatar-b.mb-3
+          .tarjeta-avatar-b__img
+            img.img-t.m-auto.w-50(src='@/assets/curso/images/tema4/img_13.svg', alt='')
+          .tarjeta.color-secundario-oscuro.shadow-sm
+            p.mt-2 Adicionalmente, en las etiquetas ya sean del empaque o embalaje como lo indica Ospina Arias, J. C. (2015), se usan métodos de identificación como códigos que puede ser códigos de barras lineales o bidimensionales, chips o bandas magnéticas, los cuales están compuesto por un símbolo gráfico (barras) y el código que son los números o en ocasiones se emplea un código alfanumérico, el cual varía de acuerdo con el producto, clase de etiqueta y mercado.
+        
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-10
+        .titulo-sexto.color-acento-contenido.mb-3
+          h5 Figura 5.
+          span Herramientas de identificación (Código de barras)
+        figure
+          img.img-t.mb-2(src='@/assets/curso/images/tema4/img_14.png', alt='').mb-5
+          figcaption Nota. Permite reconocer rápidamente un artículo de forma única, global en la cadena logística, a través de diversos sistemas de lectura existentes en el mercado (lector láser, CCD, Imagen 2D, entre otros.)..
+
+          
   </template>
 
 <script>

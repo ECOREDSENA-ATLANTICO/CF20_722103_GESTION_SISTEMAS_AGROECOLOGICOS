@@ -131,7 +131,7 @@
                 i.fas.fa-angle-right
                 | Entre otros.
           .col-md-4 
-            img.m-auto.w-50(src='@/assets/curso/images/tema5/img_12.svg', alt='')
+            img.m-auto.w-75(src='@/assets/curso/images/tema5/img_12.svg', alt='')
           p Otra técnica de almacenamiento es por medio de atmósferas controladas o modificadas, las cuales permiten adicionar, extraer o cambiar la concentración de gases que la componen, como son el dióxido de carbono (CO2), oxígeno (O2), etileno (C2H4), nitrógeno (N), con la finalidad de generar un retraso en los cambios fisiológicos, biológicos y químicos propios del ciclo de vida de los productos, como en la velocidad de respiración, la generación de etileno y la aparición de ablandamiento y variación en la composición, además, se minimiza la susceptibilidad a los daños causados por patógenos.
 
     .row.align-items-center.mb-4
@@ -145,7 +145,7 @@
       .col-auto
         img(src='@/assets/curso/images/tema5/img_8.svg' , alt='')
       .col-lg-6
-        h3.mt-4(data-aos="fade-right") Variables
+        h3.mt-2(data-aos="fade-right") Variables
   
     .row.justify-content-center.align-items-center.mb-5
       p Existen diversas variables y factores que influyen en el proceso como son las condiciones con que ingresa el producto al almacenamiento, porque la calidad de la conservación se ve afectada por daños físicos, mecánicos, biológicos, químicos. Se requiere que las condiciones de temperatura y humedad estén monitoreadas, controladas y permanezcan constantes durante el ciclo de almacenamiento debido a que variaciones mínimas tanto de aumento como de disminución pueden generar efectos negativos. 
@@ -156,7 +156,7 @@
             .col-md-3
               img.mt-3.img-t.m-auto(src='@/assets/curso/images/tema5/img_14.svg', alt='')
             .col-md-9
-              p.mt-3.p-1 Además, estos espacios o bodegas deben de ser diseñados de tal forma que haya buena circulación de aire y a la hora de almacenar se acomode organizadamente, teniendo presente la rotación de los productos, sin ir a pegar a la pared, ni al techo, ni poner directamente en el piso, se debe utilizar estibas o plataformas y dejar distancia entre arrume y arrume, entre arrume y pared y entre arrume y techo.
+              p.mt-3 Además, estos espacios o bodegas deben de ser diseñados de tal forma que haya buena circulación de aire y a la hora de almacenar se acomode organizadamente, teniendo presente la rotación de los productos, sin ir a pegar a la pared, ni al techo, ni poner directamente en el piso, se debe utilizar estibas o plataformas y dejar distancia entre arrume y arrume, entre arrume y pared y entre arrume y techo.
       .col-lg-5
         figure
           img.img-t(src='@/assets/curso/images/tema5/img_15.png', alt='')

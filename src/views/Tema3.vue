@@ -124,28 +124,28 @@
         .tarjeta-avatar-b.mb-3
           .tarjeta-avatar-b__img
             img.img-t.m-auto(src='@/assets/curso/images/tema3/img_16.svg', alt='')
-          .tarjeta.color-secundario-claro.shadow-sm
+          .tarjeta.shadow-sm
             p.text-bold.p-4.mt-2 Aceites
       
       .col-md-3
         .tarjeta-avatar-b.mb-3
           .tarjeta-avatar-b__img
             img.img-t.m-auto(src='@/assets/curso/images/tema3/img_17.svg', alt='')
-          .tarjeta.color-secundario-claro.shadow-sm
+          .tarjeta.shadow-sm
             p.text-bold.p-4.mt-2 Vegetales
       
       .col-md-3
         .tarjeta-avatar-b.mb-3
           .tarjeta-avatar-b__img
             img.img-t.m-auto(src='@/assets/curso/images/tema3/img_18.svg', alt='')
-          .tarjeta.color-secundario-claro.shadow-sm
+          .tarjeta.shadow-sm
             p.text-bold.p-4.mt-2 Resinas
       
       .col-md-3
         .tarjeta-avatar-b.mb-3
           .tarjeta-avatar-b__img
             img.img-t.m-auto(src='@/assets/curso/images/tema3/img_19.svg', alt='')
-          .tarjeta.color-secundario-claro.shadow-sm
+          .tarjeta.shadow-sm
             p.text-bold.p-2.mt-3 Emulsionantes: como el ácido oléico.
       
     .row.justify-content-center.align-items-center.mb-5
@@ -163,6 +163,47 @@
           
     p.text-bold.mb-5.text-center En tal sentido, existen diferentes métodos para elaborarlos entre las que se destacan:
     
+    .row.justify-content-center.align-items-center.mb-5    
+      .col-lg-3
+        .tarjeta.jumbotron 
+          .row.justify-content-center
+            .col-12
+              img(src='@/assets/curso/images/tema3/img_26.png' alt='AvatarTop')
+          p.p-4 
+            span.text-bold Lesión 
+            br 
+            | Pérdida de sustancia (amputaciones) o sin pérdida (tatuajes) 
+      
+      .col-lg-3
+        .tarjeta.jumbotron 
+          .row.justify-content-center
+            .col-12
+              img(src='@/assets/curso/images/tema3/img_25.png' alt='AvatarTop')
+          p.p-4 
+            span.text-bold Lesión 
+            br 
+            | Pérdida de sustancia (amputaciones) o sin pérdida (tatuajes) 
+      
+      .col-lg-3
+        .tarjeta.jumbotron 
+          .row.justify-content-center
+            .col-12
+              img(src='@/assets/curso/images/tema3/img_24.png' alt='AvatarTop')
+          p.p-4 
+            span.text-bold Lesión 
+            br 
+            | Pérdida de sustancia (amputaciones) o sin pérdida (tatuajes) 
+      
+      .col-lg-3
+        .tarjeta.jumbotron 
+          .row.justify-content-center
+            .col-12
+              img(src='@/assets/curso/images/tema3/img_23.png' alt='AvatarTop')
+          p.p-4 
+            span.text-bold Lesión 
+            br 
+            | Pérdida de sustancia (amputaciones) o sin pérdida (tatuajes) 
+
     
     
     p.text-bold.mb-5.text-center Como también existen diversas formas de aplicarlos, mediante:
@@ -171,29 +212,29 @@
       .col-md-3
         .tarjeta-avatar-b.mb-3
           .tarjeta-avatar-b__img
-            img.img-t.m-auto(src='@/assets/curso/images/tema3/img_16.svg', alt='')
-          .tarjeta.color-secundario-claro.shadow-sm
-            p.text-bold.p-4.mt-2 Inmersión
+            img.img-t.m-auto(src='@/assets/curso/images/tema3/img_27.svg', alt='')
+          .tarjeta.shadow-sm
+            p.text-bold.p-2.mt-2 Inmersión
       
       .col-md-3
         .tarjeta-avatar-b.mb-3
           .tarjeta-avatar-b__img
-            img.img-t.m-auto(src='@/assets/curso/images/tema3/img_17.svg', alt='')
-          .tarjeta.color-secundario-claro.shadow-sm
-            p.text-bold.p-4.mt-2 Lluvia
+            img.img-t.m-auto(src='@/assets/curso/images/tema3/img_28.svg', alt='')
+          .tarjeta.shadow-sm
+            p.text-bold.p-2.mt-2 Lluvia
       
       .col-md-3
         .tarjeta-avatar-b.mb-3
           .tarjeta-avatar-b__img
-            img.img-t.m-auto(src='@/assets/curso/images/tema3/img_18.svg', alt='')
-          .tarjeta.color-secundario-claro.shadow-sm
-            p.text-bold.p-4.mt-2 Escobillado
+            img.img-t.m-auto(src='@/assets/curso/images/tema3/img_29.svg', alt='')
+          .tarjeta.shadow-sm
+            p.text-bold.p-2.mt-2 Escobillado
       
       .col-md-3
         .tarjeta-avatar-b.mb-3
           .tarjeta-avatar-b__img
-            img.img-t.m-auto(src='@/assets/curso/images/tema3/img_19.svg', alt='')
-          .tarjeta.color-secundario-claro.shadow-sm
+            img.img-t.m-auto(src='@/assets/curso/images/tema3/img_30.svg', alt='')
+          .tarjeta.shadow-sm
             p.text-bold.p-2.mt-3 Nebulización
       
 

@@ -252,19 +252,86 @@
         figure
           img(src="@/assets/curso/images/tema2/img_26.svg", alt="alt")
       .col-lg-8
+      
         LineaTiempoD.color-acento-contenido
-          p(numero="1" titulo="Daño por plagas: selección y clasificación") La calidad de los datos se caracteriza por informes precisos y no confundir al responsable del tratamiento de esa información.
+          .row(numero="1" titulo="Daño por plagas: selección y clasificación")
+            .col-md-6.mb-3
+              .tarjeta-avatar-b.mb-3
+                .tarjeta-avatar-b__img
+                  img.img-t.m-auto(src='@/assets/curso/images/tema2/img_34.svg', alt='')
+                .tarjeta.shadow-sm
+                  p.text-bold.p-4.mt-2 Daño por mordeduras
+            
+            .col-md-6.mb-3
+              .tarjeta-avatar-b.mb-3
+                .tarjeta-avatar-b__img
+                  img.img-t.m-auto(src='@/assets/curso/images/tema2/img_35.svg', alt='')
+                .tarjeta.shadow-sm
+                  p.text-bold.p-4.mt-2 Daño por larvas
+                  
+            .col-md-12.mb-3
+              img.img-t.m-auto(src='@/assets/curso/images/tema2/img_28.svg', alt='')
 
-          p(numero="2" titulo="Integridad") Debe asegurarse que los datos transferidos o almacenados estén completos.
+            p 
+              span.text-bold Recomendación: 
+              | Realizar constante inspección del cultivo para verificar que se encuentre libre de daños y/o enfermedades, en caso contrario, realizar adecuada disposición de los frutos dañados y manejo cultural y/o agroecológico para evitar propagación.
 
-          p(numero="3" titulo="Presentación") La forma de visualizar un conjunto de datos es muy importante, debe permitir una excelente legibilidad y comprensión. Por lo tanto, se espera que los datos cuenten con una estructura muy bien organizada al momento de hacer su lectura y posteriormente procesarlos.
+          .row(numero="2" titulo="Enfermedades por hongos: selección y clasificación")
+            .col-md-6.mb-3
+              .tarjeta-avatar-b.mb-3
+                .tarjeta-avatar-b__img
+                  img.img-t.m-auto(src='@/assets/curso/images/tema2/img_37.svg', alt='')
+                .tarjeta.shadow-sm
+                  p.text-bold.p-4.mt-2 Daño por hongos en el cultivo
+                  
+            .col-md-12.mb-3
+              img.img-t.m-auto(src='@/assets/curso/images/tema2/img_29.svg', alt='')
 
-          p(numero="4" titulo="Consistencia") Los datos conservan su valor después del procesamiento. Se espera que esto sea consistente y verificable.
-
-          p(numero="5" titulo="Validez") Los datos deben estar en el mismo formato original independientemente de la ubicación, de modo que todos coincidan cuando ejecute el proceso de validación.
-
-          p(numero="6" titulo="Disponibilidad") Al momento de solicitar la información, esta debe estar disponible.
-
+          .row(numero="3" titulo="Categoría de calidad: selección y clasificación")
+            .col-md-6.mb-3
+              .tarjeta-avatar-b.mb-3
+                .tarjeta-avatar-b__img
+                  img.img-t.m-auto(src='@/assets/curso/images/tema2/img_38.svg', alt='')
+                .tarjeta.shadow-sm
+                  p.text-bold.p-4.mt-2 Categoría de calidad: selección y clasificación
+                  
+            .col-md-12.mb-3
+              img.img-t.m-auto(src='@/assets/curso/images/tema2/img_30.svg', alt='')
+              
+          .row(numero="4" titulo="Categoría de calidad: selección y clasificación")
+            .col-md-12.mb-3
+              img.img-t.m-auto(src='@/assets/curso/images/tema2/img_31.png', alt='')
+            
+              img.img-t.m-auto(src='@/assets/curso/images/tema2/img_32.svg', alt='')
+              
+          .row(numero="5" titulo="Categoría de calidad: norma")
+            p.mb-1 Las siguientes son algunas descripciones según la norma NCT 4601 de las condiciones que deben cumplir los frutos para las categorías de calidad.
+            .col-md-12.mb-3
+              img.img-t.m-auto(src='@/assets/curso/images/tema2/img_34.svg', alt='')
+            
+            .col-md-4.mb-3
+              .tarjeta-avatar-b.mb-3
+                .tarjeta-avatar-b__img
+                  img.img-t.m-auto(src='@/assets/curso/images/tema2/img_39.svg', alt='')
+                .tarjeta.shadow-sm
+                  p.text-bold.p-4.mt-2 Extra
+            .col-md-4.mb-3
+              .tarjeta-avatar-b.mb-3
+                .tarjeta-avatar-b__img
+                  img.img-t.m-auto(src='@/assets/curso/images/tema2/img_40.svg', alt='')
+                .tarjeta.shadow-sm
+                  p.text-bold.p-4.mt-2 Extra
+            .col-md-4.mb-3
+              .tarjeta-avatar-b.mb-3
+                .tarjeta-avatar-b__img
+                  img.img-t.m-auto(src='@/assets/curso/images/tema2/img_41.svg', alt='')
+                .tarjeta.shadow-sm
+                  p.text-bold.p-4.mt-2 Extra
+                  
+            .col-md-12.mb-3
+              img.img-t.m-auto(src='@/assets/curso/images/tema2/img_33.png', alt='')
+            p.mb-1 Cosechar los frutos de color rojo intenso con drupillas de color morado (Grado de maduración cinco GM 5) y clasificar de acuerdo a las especificaciones del mercado.
+         
     p.text-bold.text-center En relación con el color de la mora, a continuación, se muestra la tabla de colores utilizada para su clasificación:
     
     .row.justify-content-center.align-items-center.mb-5
