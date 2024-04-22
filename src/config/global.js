@@ -171,54 +171,47 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Bacteridiano',
+      termino: 'Calidad',
       significado:
-        'carbunco o ántrax es una enfermedad infecciosa zoonótica, causada por una bacteria formadora de esporas.',
+        'conjunto de cualidades físicas, propiedades organolépticas y valor nutricional de los alimentos.',
     },
     {
-      termino: 'Encefalomielitis',
+      termino: 'Características organolépticas',
       significado:
-        'es una virosis equina transmitida por moscos causando inflamación de cerebro en animales la ser zoonótica.',
+        'propiedades sensoriales (color, olor, aroma, textura y apariencia) que establecen el grado de madurez y daños.',
     },
     {
-      termino: 'Enfermedad',
+      termino: 'Estiba',
       significado:
-        'es la alteración, en su funcionamiento o en su estructura de cualquier parte del organismo animal, causada por la presencia de causas externas o internas del animal, comenzando generalmente con una modificación de la estructura orgánica, que produce una alteración de la función del respectivo órgano.',
+        'plataforma que soporta los productos durante el almacenamiento y transporte.',
     },
     {
-      termino: 'Enzootica',
-      significado:
-        'enfermedad presente en una población en un área, granja región etc.',
+      termino: 'HACCP',
+      significado: 'análisis de puntos críticos de control.',
     },
     {
-      termino: 'Infección',
+      termino: 'Película',
       significado:
-        'es la exposición a un agente etiológico, la cual puede ir seguida o no de enfermedad, dependiendo del grado de inmunidad del huésped, de si está bien nutrido, si está bajo condiciones de estrés, o si tiene alguna otra infección previa, que le impida hacerle frente a la nueva infección.',
+        'matriz preformada, obtenida por moldeo, cuyo espesor es siempre es mayor al de los recubrimientos.',
     },
     {
-      termino: 'Inflamación',
+      termino: 'Recubrimiento',
       significado:
-        'es un proceso de reacción del organismo hacia una causa irritante, la cual puede ser de origen animado o inanimado. Los animales animados pueden ser los gérmenes patógenos: bacterias o virus, parásitos, etc. Inanimados, como las sustancias químicas y los físicos. Hay síntomas de la inflamación como son: dolor, calor, enrojecimiento, hinchazón y alteración de la función del órgano afectado.',
+        'barrera transparente continua y delgada, que se adhiere al alimento con el fin de preservar su calidad y servir de empaque.',
     },
     {
-      termino: 'Micosis',
+      termino: 'Sanidad',
       significado:
-        'enfermedad producida por hongos y afecta a cualquier especie.',
+        'integridad e inocuidad del producto que garantizan la salud del consumidor.',
     },
     {
-      termino: 'Salud',
+      termino: 'Trazabilidad',
       significado:
-        'es el estado en que se encuentra el ser vivo cuando está en completa armonía con el medio.',
+        'es el control y seguimiento del producto a través de todas las etapas, desde su producción hasta el proceso de comercialización final.',
     },
     {
-      termino: 'Tatuaje',
-      significado:
-        'método de identificación animal, este se realiza en una parte como la oreja o cola.',
-    },
-    {
-      termino: 'Zoonosis',
-      significado:
-        'son las enfermedades de los animales que se transmiten al hombre. Las más frecuentes son: Carbunco, brucelosis, encefalitis equina, anemia infecciosa equina, hidatidosis, leptospirosis, rabia, salmonelosis, sarna, tenias, toxoplasmosis, tuberculosis, etc.',
+      termino: 'Valor nutricional',
+      significado: 'contenido de nutrientes en un alimento.',
     },
   ],
   complementario: [
