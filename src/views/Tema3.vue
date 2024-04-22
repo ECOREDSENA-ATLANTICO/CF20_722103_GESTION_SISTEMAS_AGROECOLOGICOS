@@ -41,14 +41,162 @@
           img(src='@/assets/curso/images/tema3/img_4.png', alt='Texto que describa la imagen').mb-5
           figcaption Nota. Fernández Valdés, Daybelis, Bautista Baños, Silvia, Fernández Valdés, Dayvis, Ocampo Ramírez, Arturo, García Pereira, Annia, & Falcón Rodríguez, Alejandro. (2015)
     
-    .row.align-items-center.mb-4
+    .row.justify-content-center.align-items-center.mb-5
       .col-lg-5.mb-4.mb-lg-0(data-aos="fade-left")
         figure
           img.img-t.m-auto(src='@/assets/curso/images/tema3/img_5.svg', alt='')
       .col-lg-7(data-aos="fade-right")
         .cajon.color-acento-contenido.p-4.ps-5.bg_18.mb-4.mb-lg-0
           p.p-2 Por tanto, aunque las características y propiedades de películas y recubrimientos están enfocadas a reducir el deterioro y perecibilidad de los alimentos, se generan otras ventajas funcionales que dan un valor agregado a los productos, como se plantean a continuación:
-     
+    
+    .row.justify-content-center.align-items-center.mb-5
+      .col-md-6  
+        .tarjeta-avatar-b.mb-3
+          .tarjeta-avatar-b__img
+            img.img-t.m-auto(src='@/assets/curso/images/tema3/img_6.svg', alt='')
+          .tarjeta.color-secundario-claro.shadow-sm
+            p.mt-2.text-bold Incrementar vida útil
+            p.mt-2 Al formar una barrera protectora física contra el ataque de microorganismos.
+        
+        .tarjeta-avatar-b.mb-3
+          .tarjeta-avatar-b__img
+            img.img-t.m-auto(src='@/assets/curso/images/tema3/img_7.svg', alt='')
+          .tarjeta.color-secundario-claro.shadow-sm
+            p.mt-2.text-bold Perservar textura
+            p.mt-2 Son protectores de la acción física, química y mecánica (mejoran sus propiedades).
+        
+        .tarjeta-avatar-b.mb-3
+          .tarjeta-avatar-b__img
+            img.img-t.m-auto(src='@/assets/curso/images/tema3/img_8.svg', alt='')
+          .tarjeta.color-secundario-claro.shadow-sm
+            p.mt-2.text-bold Reducir pérdida de agua
+            p.mt-2 Reducen la tasa de respiración durante el periodo de almacenamiento.
+        
+        .tarjeta-avatar-b.mb-3
+          .tarjeta-avatar-b__img
+            img.img-t.m-auto(src='@/assets/curso/images/tema3/img_9.svg', alt='')
+          .tarjeta.color-secundario-claro.shadow-sm
+            p.mt-2.text-bold Proporcionar propiedades sensoriales
+            p.mt-2Son transparentes, no son detectados durante su consumo.
+                      
+        .tarjeta-avatar-b.mb-3
+          .tarjeta-avatar-b__img
+            img.img-t.m-auto(src='@/assets/curso/images/tema3/img_10.svg', alt='')
+          .tarjeta.color-secundario-claro.shadow-sm
+            p.mt-2.text-bold Seguridad para la salud
+            p.mt-2 No son tóxicos ni inflamables.
+                      
+      .col-lg-6
+        .tarjeta-avatar-b.mb-3
+          .tarjeta-avatar-b__img
+            img.img-t.m-auto(src='@/assets/curso/images/tema3/img_11.svg', alt='')
+          .tarjeta.color-secundario-claro.shadow-sm
+            p.mt-2.text-bold Seguridad al consumirlos 
+            p.mt-2 Al formar una barrera protectora física contra el ataque de microorganismos.
+        
+        .tarjeta-avatar-b.mb-3
+          .tarjeta-avatar-b__img
+            img.img-t.m-auto(src='@/assets/curso/images/tema3/img_12.svg', alt='')
+          .tarjeta.color-secundario-claro.shadow-sm
+            p.mt-2.text-bold Tecnología
+            p.mt-2 Lubrica la superficie de la fruta u hortaliza y sellan los rasguños o cortes que se producen en la piel. 
+        
+        .tarjeta-avatar-b.mb-3
+          .tarjeta-avatar-b__img
+            img.img-t.m-auto(src='@/assets/curso/images/tema3/img_13.svg', alt='')
+          .tarjeta.color-secundario-claro.shadow-sm
+            p.mt-2.text-bold Facilidad de aplicación 
+            p.mt-2 Se pueden aplicar mediante una variedad de procesos, incluso de forma manual. 
+
+        .tarjeta-avatar-b.mb-3
+          .tarjeta-avatar-b__img
+            img.img-t.m-auto(src='@/assets/curso/images/tema3/img_14.svg', alt='')
+          .tarjeta.color-secundario-claro.shadow-sm
+            p.mt-2.text-bold Costo
+            p.mt-2 No son costosos.
+                      
+        img.mb-4.mt-5.img-t.m-auto(src='@/assets/curso/images/tema3/img_15.svg', alt='')
+    
+    p.text-bold.mb-5.text-center Aunque existen diversos productos y formulaciones con los cuales se elabora los recubrimientos y películas, como, por ejemplo:
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-md-3
+        .tarjeta-avatar-b.mb-3
+          .tarjeta-avatar-b__img
+            img.img-t.m-auto(src='@/assets/curso/images/tema3/img_16.svg', alt='')
+          .tarjeta.color-secundario-claro.shadow-sm
+            p.text-bold.p-4.mt-2 Aceites
+      
+      .col-md-3
+        .tarjeta-avatar-b.mb-3
+          .tarjeta-avatar-b__img
+            img.img-t.m-auto(src='@/assets/curso/images/tema3/img_17.svg', alt='')
+          .tarjeta.color-secundario-claro.shadow-sm
+            p.text-bold.p-4.mt-2 Vegetales
+      
+      .col-md-3
+        .tarjeta-avatar-b.mb-3
+          .tarjeta-avatar-b__img
+            img.img-t.m-auto(src='@/assets/curso/images/tema3/img_18.svg', alt='')
+          .tarjeta.color-secundario-claro.shadow-sm
+            p.text-bold.p-4.mt-2 Resinas
+      
+      .col-md-3
+        .tarjeta-avatar-b.mb-3
+          .tarjeta-avatar-b__img
+            img.img-t.m-auto(src='@/assets/curso/images/tema3/img_19.svg', alt='')
+          .tarjeta.color-secundario-claro.shadow-sm
+            p.text-bold.p-2.mt-3 Emulsionantes: como el ácido oléico.
+      
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-7(data-aos="fade-right")
+        .tarjeta-avatar-b.mb-3
+          .tarjeta-avatar-b__img
+            img.mt-3.img-t.m-auto(src='@/assets/curso/images/tema3/img_21.svg', alt='')
+          .tarjeta.color-secundario-claro.shadow-sm
+            p.mt-4 Es importante resaltar como lo indica Solano-Doblado, Luz Georgina, Alamilla-Beltrán, Liliana, Jiménez-Martínez, Cristian. (2018), que las películas y recubrimientos siempre deben estar compuestas con 3 elementos fundamentales que son el:
+        img.mt-3.img-t.m-auto.w-80(src='@/assets/curso/images/tema3/img_22.svg', alt='')
+
+      .col-lg-5.mb-4.mb-lg-0(data-aos="fade-left")
+        figure
+          img.img-t.m-auto(src='@/assets/curso/images/tema3/img_20.png', alt='')
+          
+    p.text-bold.mb-5.text-center En tal sentido, existen diferentes métodos para elaborarlos entre las que se destacan:
+    
+    
+    
+    p.text-bold.mb-5.text-center Como también existen diversas formas de aplicarlos, mediante:
+    
+    .row.justify-content-center.align-items-center.mb-5
+      .col-md-3
+        .tarjeta-avatar-b.mb-3
+          .tarjeta-avatar-b__img
+            img.img-t.m-auto(src='@/assets/curso/images/tema3/img_16.svg', alt='')
+          .tarjeta.color-secundario-claro.shadow-sm
+            p.text-bold.p-4.mt-2 Inmersión
+      
+      .col-md-3
+        .tarjeta-avatar-b.mb-3
+          .tarjeta-avatar-b__img
+            img.img-t.m-auto(src='@/assets/curso/images/tema3/img_17.svg', alt='')
+          .tarjeta.color-secundario-claro.shadow-sm
+            p.text-bold.p-4.mt-2 Lluvia
+      
+      .col-md-3
+        .tarjeta-avatar-b.mb-3
+          .tarjeta-avatar-b__img
+            img.img-t.m-auto(src='@/assets/curso/images/tema3/img_18.svg', alt='')
+          .tarjeta.color-secundario-claro.shadow-sm
+            p.text-bold.p-4.mt-2 Escobillado
+      
+      .col-md-3
+        .tarjeta-avatar-b.mb-3
+          .tarjeta-avatar-b__img
+            img.img-t.m-auto(src='@/assets/curso/images/tema3/img_19.svg', alt='')
+          .tarjeta.color-secundario-claro.shadow-sm
+            p.text-bold.p-2.mt-3 Nebulización
+      
+
   </template>
 
 <script>
