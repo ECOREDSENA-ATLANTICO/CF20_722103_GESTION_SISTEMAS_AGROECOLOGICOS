@@ -23,7 +23,9 @@
           span Sentidos de la trazabilidad
         figure
           img.img-t.mb-2(src='@/assets/curso/images/tema6/img_2.png', alt='')
-    
+          figcaption 
+            span.text-bold Nota. 
+            | Sena 2022
     
     figure.d-flex.align-items-center.mb-4#t_6_1
       img.img-t.d-inline-block.align-middle.me-2(src='@/assets/curso/images/tema5/img_7.svg', alt='Imagen Decorativa')
