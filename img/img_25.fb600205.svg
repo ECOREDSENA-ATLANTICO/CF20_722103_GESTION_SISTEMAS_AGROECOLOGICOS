@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="715" height="70.298" viewBox="0 0 715 70.298">
+  <defs>
+    <filter id="Icon_akar-arrow-left-thick" x="113.702" y="0" width="70.298" height="70.298" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Icon_akar-arrow-left-thick-2" x="325.351" y="0" width="70.298" height="70.298" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Icon_akar-arrow-left-thick-3" x="537.351" y="0" width="70.298" height="70.298" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_1084318" data-name="Grupo 1084318" transform="translate(-705 -5080.351)">
+    <rect id="Rectángulo_361791" data-name="Rectángulo 361791" width="85" height="33" rx="5" transform="translate(705 5096)" fill="#ffd3c3"/>
+    <rect id="Rectángulo_361792" data-name="Rectángulo 361792" width="85" height="33" rx="5" transform="translate(915 5096)" fill="#cee284"/>
+    <text id="Extra" transform="translate(727 5117)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Extra</tspan></text>
+    <text id="Primera" transform="translate(930 5118)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Primera</tspan></text>
+    <rect id="Rectángulo_361793" data-name="Rectángulo 361793" width="85" height="33" rx="5" transform="translate(1125 5096)" fill="#cee284"/>
+    <rect id="Rectángulo_361794" data-name="Rectángulo 361794" width="85" height="33" rx="5" transform="translate(1335 5096)" fill="#cee284"/>
+    <text id="Segunda" transform="translate(1136 5117)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Segunda</tspan></text>
+    <text id="Tercera" transform="translate(1352 5117)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Tercera</tspan></text>
+    <g transform="matrix(1, 0, 0, 1, 705, 5080.35)" filter="url(#Icon_akar-arrow-left-thick)">
+      <path id="Icon_akar-arrow-left-thick-4" data-name="Icon akar-arrow-left-thick" d="M0,25.149,19.56,0V13.944l30.737.028V36.326H19.56V50.3Z" transform="translate(171 57.3) rotate(180)" fill="#ffa686" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 705, 5080.35)" filter="url(#Icon_akar-arrow-left-thick-2)">
+      <path id="Icon_akar-arrow-left-thick-5" data-name="Icon akar-arrow-left-thick" d="M0,25.149,19.56,0V13.944l30.737.028V36.326H19.56V50.3Z" transform="translate(382.65 57.3) rotate(180)" fill="#cee284" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 705, 5080.35)" filter="url(#Icon_akar-arrow-left-thick-3)">
+      <path id="Icon_akar-arrow-left-thick-6" data-name="Icon akar-arrow-left-thick" d="M0,25.149,19.56,0V13.944l30.737.028V36.326H19.56V50.3Z" transform="translate(594.65 57.3) rotate(180)" fill="#cee284" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>
