@@ -23,12 +23,11 @@
           span Sentidos de la trazabilidad
         figure
           img.img-t.mb-2(src='@/assets/curso/images/tema6/img_2.png', alt='')
-
-    .row.mb-4
-      .col-auto
-        img(src='@/assets/curso/images/tema6/img_3.svg' , alt='')
-      .col-lg-6
-        h3.mt-2(data-aos="fade-right") Importancia y responsabilidades
+    
+    
+    figure.d-flex.align-items-center.mb-4#t_6_1
+      img.img-t.d-inline-block.align-middle.me-2(src='@/assets/curso/images/tema5/img_7.svg', alt='Imagen Decorativa')
+      h2.mb-0(data-aos="fade-right") Importancia y responsabilidades
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-5
@@ -83,12 +82,11 @@
         figure
           img.img-t.mb-2(src='@/assets/curso/images/tema6/img_9.svg', alt='')
     
-    .row.mb-5
-      .col-auto
-        img(src='@/assets/curso/images/tema6/img_3.svg' , alt='')
-      .col-lg-6
-        h3.mt-2(data-aos="fade-right") Análisis de peligros y puntos críticos de control
     
+    figure.d-flex.align-items-center.mb-4#t_6_2
+      img.img-t.d-inline-block.align-middle.me-2(src='@/assets/curso/images/tema5/img_7.svg', alt='Imagen Decorativa')
+      h2.mb-0(data-aos="fade-right") Análisis de peligros y puntos críticos de control
+
     .row.justify-content-center.align-items-center.mb-5
       p Se debe tener claro que la calidad e inocuidad de los alimentos es responsabilidad del productor, lo que conlleva a la implementación y diseño del HACCP o análisis de peligros y puntos críticos de control, ya que este sistema permite emplear medidas preventivas en las etapas donde se presenten peligros y así garantizar la inocuidad mediante controles eficaces y efectivos.
       .col-lg-5

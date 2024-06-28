@@ -19,18 +19,14 @@
               img.mt-3.img-t.m-auto(src='@/assets/curso/images/tema3/img_2.svg', alt='')
             .col-md-9
               p.mt-3.p-1 Estás técnicas, consisten como lo indica Borrero Ortiz, M., & Urrea López, M. (2007), en aplicar una capa artificial con características específicas (espesor y resistencia) que varían según el producto empleado para elaborarlo y el procedimiento para aplicarlo y pueden estar ya preformados (películas) o se pueden elaborar y aplicar sobre el alimento, lo que conlleva a que adopte la misma forma (recubrimiento).
-                          
-    .row.justify-content-center.align-items-center.mb-0
-      .col-lg-12.mb-5
-        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
-          .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/images/tema3/img_3.png')})`, 'left': '50%'}"
-          )
-          .bloque-texto-g__texto.p-4(
-            :style="{'right': '40%'}"
-          )
-            p.mb-0 Esta capa artificial o recubrimiento funciona como una barrera que brinda protección contra patógenos y factores ambientales, mejora la apariencia del producto ya que proporciona brillo, retarda el envejecimiento al controlar la respiración y minimizar la deshidratación, debido que se controla la transferencia de humedad, de gases como el oxígeno O2, dióxido de carbono CO2 y etileno, además incorpora ingredientes funcionales como antioxidantes, antimicrobianos, colorantes y sabores, como se muestra a continuación:
-      
+    
+    .bloque-texto-g.bloque-texto-g--inverso.p-3.p-sm-4.p-md-5.mb-5.bg-color-primario
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/images/tema3/img_3.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.m-0 Esta capa artificial o recubrimiento funciona como una barrera que brinda protección contra patógenos y factores ambientales, mejora la apariencia del producto ya que proporciona brillo, retarda el envejecimiento al controlar la respiración y minimizar la deshidratación, debido que se controla la transferencia de humedad, de gases como el oxígeno O2, dióxido de carbono CO2 y etileno, además incorpora ingredientes funcionales como antioxidantes, antimicrobianos, colorantes y sabores, como se muestra a continuación:
+          
     .row.justify-content-center.align-items-center.mb-5
       .tarjeta.tarjeta--blanca.p-4.col-lg-10
         .titulo-sexto.color-acento-contenido.mb-3

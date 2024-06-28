@@ -23,7 +23,7 @@
       p.mt-1 No obstante, como lo indica Borrero Ortiz, M., & Urrea López, M. (2007), se debe tener presente y proveer las condiciones adecuadas durante el almacenamiento para evitar la continuidad de los procesos desarrollo propios de los productos, como, por ejemplo, enraizamiento, germinación de semillas, enverdecimiento, brotación y crecimiento o alargamiento.
         span.text-bold  A continuación, se exponen algunos procesos metabólicos que se presentan después de la poscosecha:
           
-    TabsC.color-primario
+    TabsC.color-primario.mb-5
       .py-3.py-md-4(titulo="Brotado")
         .row
           .col-md-6
@@ -78,12 +78,10 @@
           .col-md-6.mb-4.mb-md-0
             h4.mt-5 Endurecimiento
             p La gravedad y la luz pueden ocasionar el encorvamiento de los tejidos. Los productos deformes son difíciles de empacar y de baja calidad comercial debido a la mala presentación.
-        
-    .row.mb-4
-      .col-auto
-        img(src='@/assets/curso/images/tema5/img_8.svg' , alt='')
-      .col-lg-6
-        h3.mt-4(data-aos="fade-right") Técnicas y condiciones 
+    
+    figure.d-flex.align-items-center.mb-4#t_5_1
+      img.img-t.d-inline-block.align-middle.me-2(src='@/assets/curso/images/tema5/img_7.svg', alt='Imagen Decorativa')
+      h2.mb-0(data-aos="fade-right") Técnicas y condiciones 
   
     .row.align-items-center.mb-4
       .col-lg-7(data-aos="fade-right")
@@ -134,18 +132,17 @@
             img.m-auto.w-75(src='@/assets/curso/images/tema5/img_12.svg', alt='')
           p Otra técnica de almacenamiento es por medio de atmósferas controladas o modificadas, las cuales permiten adicionar, extraer o cambiar la concentración de gases que la componen, como son el dióxido de carbono (CO2), oxígeno (O2), etileno (C2H4), nitrógeno (N), con la finalidad de generar un retraso en los cambios fisiológicos, biológicos y químicos propios del ciclo de vida de los productos, como en la velocidad de respiración, la generación de etileno y la aparición de ablandamiento y variación en la composición, además, se minimiza la susceptibilidad a los daños causados por patógenos.
 
-    .row.align-items-center.mb-4
+    .row.align-items-center.mb-5
       .col-lg-5.mb-4.mb-lg-0(data-aos="fade-left")
         figure
           img.img-t.m-auto(src='@/assets/curso/images/tema5/img_13.png', alt='')
       .col-lg-7(data-aos="fade-right")
         p Cada gas empleado en la atmósfera cumple su función y sus niveles varían de acuerdo a los beneficios o consecuencias que generan, por ejemplo, el oxígeno no están deseado ya que genera oxidación por tanto el nitrógeno se encarga de desplazar, además de que ayuda a minimizar el crecimiento de patógenos; por su parte el dióxido de carbono como disminuye la respiración y frena la acción de metileno hace que los órganos entren en un estado de reposo que favorece porque frena y suspende todos los procesos ayudando a la conservación. Pero, al igual que la temperatura, cuando la concentración de gases no es la propicia, se generan consecuencias negativas, como presencia de sabores y olores desagradables, fermentación y asfixia de tejidos.
     
-    .row.mb-4
-      .col-auto
-        img(src='@/assets/curso/images/tema5/img_8.svg' , alt='')
-      .col-lg-6
-        h3.mt-2(data-aos="fade-right") Variables
+    figure.d-flex.align-items-center.mb-4#t_5_2
+      img.img-t.d-inline-block.align-middle.me-2(src='@/assets/curso/images/tema5/img_7.svg', alt='Imagen Decorativa')
+      h2.mb-0(data-aos="fade-right") Variables
+  
   
     .row.justify-content-center.align-items-center.mb-5
       p Existen diversas variables y factores que influyen en el proceso como son las condiciones con que ingresa el producto al almacenamiento, porque la calidad de la conservación se ve afectada por daños físicos, mecánicos, biológicos, químicos. Se requiere que las condiciones de temperatura y humedad estén monitoreadas, controladas y permanezcan constantes durante el ciclo de almacenamiento debido a que variaciones mínimas tanto de aumento como de disminución pueden generar efectos negativos. 

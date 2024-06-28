@@ -46,12 +46,11 @@
       .col-lg-5.mb-4.mb-lg-0(data-aos="fade-left")
         figure
           img.img-t.m-auto(src='@/assets/curso/images/tema2/img_6.png', alt='')
-        
-    .row.mb-4
-      .col-auto
-        img(src='@/assets/curso/images/tema5/img_7.svg' , alt='')
-      .col-lg-6
-        h3.mt-4(data-aos="fade-right") Recepción y separación
+    
+    
+    figure.d-flex.align-items-center.mb-4#t_2_1
+      img.img-t.d-inline-block.align-middle.me-2(src='@/assets/curso/images/tema5/img_7.svg', alt='Imagen Decorativa')
+      h2.mb-0(data-aos="fade-right") Recepción y separación
   
     .row.justify-content-center.align-items-center.mb-0
       .col-lg-12.mb-5
@@ -142,11 +141,10 @@
               h4.text-center.p-4.mb-0 Daño
               p.text-center Hongos, insectos o residuos químicos en el producto.
     
-    .row.mb-4
-      .col-auto
-        img(src='@/assets/curso/images/tema5/img_7.svg' , alt='')
-      .col-lg-6
-        h3.mt-4(data-aos="fade-right") Selección y clasificación
+    figure.d-flex.align-items-center.mb-4#t_2_2
+      img.img-t.d-inline-block.align-middle.me-2(src='@/assets/curso/images/tema5/img_7.svg', alt='Imagen Decorativa')
+      h2.mb-0(data-aos="fade-right") Selección y clasificación
+
   
     .row.align-items-center.mb-4
       .col-lg-7(data-aos="fade-right")

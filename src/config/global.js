@@ -51,6 +51,20 @@ export default {
         numero: '2',
         titulo: 'Acondicionamiento',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.1',
+            titulo: 'Recepción y separación',
+            hash: 't_2_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo: 'Selección y clasificación',
+            hash: 't_2_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
@@ -72,6 +86,20 @@ export default {
         numero: '5',
         titulo: 'Almacenamiento',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '5.1',
+            titulo: 'Técnicas y condiciones',
+            hash: 't_5_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '5.2',
+            titulo: 'Variables',
+            hash: 't_5_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema6',
@@ -79,6 +107,20 @@ export default {
         numero: '6',
         titulo: 'Trazabilidad',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '6.1',
+            titulo: 'Importancia y responsabilidades',
+            hash: 't_6_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '6.2',
+            titulo: 'Análisis de peligros y puntos críticos de control',
+            hash: 't_6_2',
+          },
+        ],
       },
     ],
     subMenu: [
