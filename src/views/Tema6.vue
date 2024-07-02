@@ -37,6 +37,58 @@
           img.img-t(src='@/assets/curso/images/tema6/img_4.png', alt='')
       .col-lg-7.mb-3
         p.mt-2 Por medio del seguimiento y rastreabilidad se tiene la opción de intervenir sobre los factores que permitan mejorar la calidad del producto final, la seguridad de los productos y la transparencia de los mercados. Por tanto, se debe tener toda la información relacionada de cada uno de los eslabones de la cadena:
+        SlyderF(columnas="col-lg-6 col-xl-6 mb-5")
+          .d-flex.align-items-center.shadow-sm.mb-0
+            img.img-t.d-inline-block.align-middle.me-2(src='@/assets/curso/images/tema6/img_13.svg', alt='Imagen Ilustrativa')
+            p.mb-0 Cosecha.
+
+          .d-flex.align-items-center.shadow-sm
+            img.img-t.d-inline-block.align-middle.me-2(src='@/assets/curso/images/tema6/img_14.svg', alt='Imagen Ilustrativa')
+            p.mb-0 Producción.
+          
+          .d-flex.align-items-center.shadow-sm
+            img.img-t.d-inline-block.align-middle.me-2(src='@/assets/curso/images/tema6/img_15.svg', alt='Imagen Ilustrativa')
+            p.mb-0 Recolección.
+
+          .d-flex.align-items-center.shadow-sm
+            img.img-t.d-inline-block.align-middle.me-2(src='@/assets/curso/images/tema6/img_13.svg', alt='Imagen Ilustrativa')
+            p.mb-0 Acondicionamiento.
+
+          .d-flex.align-items-center.shadow-sm
+            img.img-t.d-inline-block.align-middle.me-2(src='@/assets/curso/images/tema6/img_14.svg', alt='Imagen Ilustrativa')
+            p.mb-0 Limpieza y desinfección.
+          
+          .d-flex.align-items-center.shadow-sm
+            img.img-t.d-inline-block.align-middle.me-2(src='@/assets/curso/images/tema6/img_15.svg', alt='Imagen Ilustrativa')
+            p.mb-0 Transformación.
+
+          .d-flex.align-items-center.shadow-sm
+            img.img-t.d-inline-block.align-middle.me-2(src='@/assets/curso/images/tema6/img_13.svg', alt='Imagen Ilustrativa')
+            p.mb-0 Empaque.
+
+          .d-flex.align-items-center.shadow-sm
+            img.img-t.d-inline-block.align-middle.me-2(src='@/assets/curso/images/tema6/img_14.svg', alt='Imagen Ilustrativa')
+            p.mb-0 Transporte.
+          
+          .d-flex.align-items-center.shadow-sm
+            img.img-t.d-inline-block.align-middle.me-2(src='@/assets/curso/images/tema6/img_15.svg', alt='Imagen Ilustrativa')
+            p.mb-0 Almacenamiento.
+
+          .d-flex.align-items-center.shadow-sm
+            img.img-t.d-inline-block.align-middle.me-2(src='@/assets/curso/images/tema6/img_13.svg', alt='Imagen Ilustrativa')
+            p.mb-0 Distribución.
+
+          .d-flex.align-items-center.shadow-sm
+            img.img-t.d-inline-block.align-middle.me-2(src='@/assets/curso/images/tema6/img_14.svg', alt='Imagen Ilustrativa')
+            p.mb-0 Comercialización.
+          
+          .d-flex.align-items-center.shadow-sm
+            img.img-t.d-inline-block.align-middle.me-2(src='@/assets/curso/images/tema6/img_15.svg', alt='Imagen Ilustrativa')
+            p.mb-0 Cliente.
+
+
+
+
     
     p.text-bold.text-center A continuación, se representan los ámbitos o elementos involucrados en la trazabilidad:
     

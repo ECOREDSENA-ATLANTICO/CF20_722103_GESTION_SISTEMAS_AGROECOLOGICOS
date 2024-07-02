@@ -10,12 +10,12 @@
             img(src="@/assets/template/arrastrar.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Manejo en la producción pecuaria
-        p.mb-4 Reforzar los elementos conceptuales y operativos de Producción pecuaria agroecológica.
+          h2 Conceptos de poscosecha
+        p.mb-4 Afianzar los conocimientos del aprendiz en lo relacionado con conceptos de poscosecha a través de la validación del entendimiento de conceptos tratados en el componente.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Arrastrar y soltar el término con la definición que corresponde
+              p.fw-bold.mb-0 Relacionar Términos
             .col-auto
               a.boton.boton--b(:href="obtenerLink('/actividades/story.html')" target="_blank")
                 span Realizar

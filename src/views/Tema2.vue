@@ -11,22 +11,22 @@
       p.text-center.mb-5 En poscosecha las operaciones de acondicionamiento incluyen principalmente las actividades de:
       .col-lg-8.mb-5
         figure
-          img.img-t.m-auto(src='@/assets/curso/images/tema2/img_1.svg', alt='')
-      p.text-center.mb-5 En poscosecha las operaciones de acondicionamiento incluyen principalmente las actividades de:
+          img.img-t.m-auto(src='@/assets/curso/images/tema2/img_1.svg', alt='Recepción, Separación, Limpieza, Selección y Clasificación.')
+      p.text-center.mb-5 Estas, se enfocan en preparar los productos para ser:
       .col-lg-8.mb-5
         figure
-          img.img-t.m-auto(src='@/assets/curso/images/tema2/img_2.svg', alt='')
+          img.img-t.m-auto(src='@/assets/curso/images/tema2/img_2.svg', alt='Empacados, Almacenados, Transportados y Comercializados')
     
     .row.align-items-center.mb-4
       .col-lg-5.mb-4.mb-lg-0(data-aos="fade-left")
         figure
-          img.img-t.m-auto(src='@/assets/curso/images/tema2/img_3.png', alt='')
+          img.img-t.m-auto(src='@/assets/curso/images/tema2/img_3.png', alt='Imagen Decorativa')
       .col-lg-7(data-aos="fade-right")
         p Lo indicado previamente, permite mantener la calidad de los productos, al mismo tiempo que evita que se dañen o contaminen, es decir alargan la durabilidad mediante prácticas que permiten conservar las características propias de los productos (físicas, químicas y organolépticas) y así lograr que el producto sea apreciado y aceptado por el consumidor o que tenga las condiciones requeridas para ser procesado.
         .tarjeta.color-secundario-claro-sin-bordes.p-3.ps-4.bg_18.mb-4.mb-lg-0
           .row
             .col-md-3
-              img.img-t.m-auto(src='@/assets/curso/images/tema2/img_4.svg', alt='')
+              img.img-t.m-auto(src='@/assets/curso/images/tema2/img_4.svg', alt='Imagen Decorativa')
             .col-md-9
               p.mt-3.p-1 Como se muestra en la siguiente figura, existen diversos tipos de calidad, que mediante el desarrollo de las actividades de acondicionamiento permiten preservar y potencializar los productos. 
              
@@ -37,7 +37,7 @@
           span  Calidad en los alimentos  
               
         figure
-          img(src='@/assets/curso/images/tema2/img_5.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/images/tema2/img_5.svg', alt='Muestra el componente formativo la calidad en los alimentos. Estos acondicionamientos permiten preservar y potencializar los productos para su consumo: Calidad agropecuaria, Calidad comercial, Calidad industrial, Calidad nutricional')
 
     .row.align-items-center.mb-4
       .col-lg-7(data-aos="fade-right")
@@ -45,7 +45,7 @@
           p.p-2 Teniendo en cuenta que se requiere una adecuada calidad inicial debido a la calidad final obtenida, está directamente relacionada con las cualidades y condiciones con que llega el producto al proceso de poscosecha, además de higiene y sanidad durante todo el proceso de acondicionamiento que asegure la integridad del producto y a su vez la salud de los consumidores. 
       .col-lg-5.mb-4.mb-lg-0(data-aos="fade-left")
         figure
-          img.img-t.m-auto(src='@/assets/curso/images/tema2/img_6.png', alt='')
+          img.img-t.m-auto(src='@/assets/curso/images/tema2/img_6.png', alt='Imagen Decorativa')
     
     
     figure.d-flex.align-items-center.mb-4#t_2_1
@@ -62,12 +62,12 @@
             p.mb-0 La recepción es la primera actividad que se realiza en poscosecha, una vez realizado el proceso de recolección, los productos son enviados a los centros de acopio donde son recepcionados e inspeccionados teniendo en cuenta factores como:
       .col-lg-8.mb-5
         figure
-          img.img-t.m-auto(src='@/assets/curso/images/tema2/img_8.svg', alt='')
+          img.img-t.m-auto(src='@/assets/curso/images/tema2/img_8.svg', alt='Color, Olor, Apariencia, Sabor, Textura, Consistencia, Impactos, Cortes y Daños.')
 
     .row.align-items-center.mb-4
       .col-lg-5.mb-4.mb-lg-0(data-aos="fade-left")
         figure
-          img.img-t.m-auto(src='@/assets/curso/images/tema2/img_9.png', alt='')
+          img.img-t.m-auto(src='@/assets/curso/images/tema2/img_9.png', alt='Imagen Decorativa')
       .col-lg-7(data-aos="fade-right")
         p Entre otras propiedades organolépticas que se pueden percibir y dar una primera impresión de cómo está el producto, además de cómo ha sido el proceso de cosecha, recolección y manipulación que se le ha dado hasta ese momento.
         .cajon.color-secundario.p-3.ps-4.bg_18.mb-4.mb-lg-0
@@ -76,27 +76,27 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-2.mb-3
         .tarjeta.color-acento-contenido.p-3.ps-4.bg_18.mb-4.mb-lg-0
-          img.w-50.img-t.m-auto(src='@/assets/curso/images/tema2/img_10.svg', alt='').mb-2
+          img.w-50.img-t.m-auto(src='@/assets/curso/images/tema2/img_10.svg', alt='Imagen Decorativa').mb-2
           p.text-center Cantidad de producto recibido
 
       .col-lg-2.mb-3
         .tarjeta.color-secundario-claro.p-3.ps-4.bg_18.mb-4.mb-lg-0
-          img.w-50.img-t.m-auto(src='@/assets/curso/images/tema2/img_11.svg', alt='').mb-2
+          img.w-50.img-t.m-auto(src='@/assets/curso/images/tema2/img_11.svg', alt='Imagen Decorativa').mb-2
           p.text-center Lugar de procedencia
 
       .col-lg-2.mb-3
         .tarjeta.color-secundario-claro.p-3.ps-4.bg_18.mb-4.mb-lg-0
-          img.w-50.img-t.m-auto(src='@/assets/curso/images/tema2/img_12.svg', alt='').mb-2
+          img.w-50.img-t.m-auto(src='@/assets/curso/images/tema2/img_12.svg', alt='Imagen Decorativa').mb-2
           p.text-center Fechas de recolección
 
       .col-lg-2.mb-3
         .tarjeta.color-secundario-claro.p-3.ps-4.bg_18.mb-4.mb-lg-0
-          img.w-50.img-t.m-auto(src='@/assets/curso/images/tema2/img_13.svg', alt='').mb-2
+          img.w-50.img-t.m-auto(src='@/assets/curso/images/tema2/img_13.svg', alt='Imagen Decorativa').mb-2
           p.text-center Inspección del vehículo
 
       .col-lg-2.mb-3
         .tarjeta.color-secundario-claro.p-3.ps-4.bg_18.mb-4.mb-lg-0
-          img.w-50.img-t.m-auto(src='@/assets/curso/images/tema2/img_14.svg', alt='').mb-2
+          img.w-50.img-t.m-auto(src='@/assets/curso/images/tema2/img_14.svg', alt='Imagen Decorativa').mb-2
           p.text-center Condiciones de transporte
 
     .row.justify-content-center.align-items-center.mb-0
@@ -111,7 +111,7 @@
     .row.justify-content-center.mb-5
       .col-lg-3.col-lg.mb-3.mb-lg-0
         .tarjeta-avatar
-          img.img-t.m-auto(src='@/assets/curso/images/tema2/img_16.svg')
+          img.img-t.m-auto(src='@/assets/curso/images/tema2/img_16.svg' alt="Imagen Decorativa")
           .tarjeta.color-secundario-claro-redondeo
             .p-4
               h4.text-center.p-4.mb-0 Madurez
@@ -119,7 +119,7 @@
       
       .col-lg-3.col-lg.mb-3.mb-lg-0
         .tarjeta-avatar
-          img.img-t.m-auto(src='@/assets/curso/images/tema2/img_17.svg')
+          img.img-t.m-auto(src='@/assets/curso/images/tema2/img_17.svg' alt="Imagen Decorativa")
           .tarjeta.color-secundario-claro-redondeo
             .p-4
               h4.text-center.p-4.mb-0 Falta de madurez
@@ -127,7 +127,7 @@
       
       .col-lg-3.col-lg.mb-3.mb-lg-0
         .tarjeta-avatar
-          img.img-t.m-auto(src='@/assets/curso/images/tema2/img_18.svg')
+          img.img-t.m-auto(src='@/assets/curso/images/tema2/img_18.svg' alt="Imagen Decorativa")
           .tarjeta.color-secundario-claro-redondeo
             .p-4
               h4.text-center.p-4.mb-0 Deformidad
@@ -135,7 +135,7 @@
       
       .col-lg-3.col-lg.mb-3.mb-lg-0
         .tarjeta-avatar
-          img.img-t.m-auto(src='@/assets/curso/images/tema2/img_19.svg')
+          img.img-t.m-auto(src='@/assets/curso/images/tema2/img_19.svg' alt="Imagen Decorativa" )
           .tarjeta.color-secundario-claro-redondeo
             .p-4
               h4.text-center.p-4.mb-0 Daño
@@ -152,24 +152,24 @@
         .tarjeta.color-secundario-claro-sin-bordes.p-3.ps-4.bg_18.mb-4.mb-lg-0
           .row
             .col-md-3
-              img.img-t.m-auto(src='@/assets/curso/images/tema2/img_20.svg', alt='')
+              img.img-t.m-auto(src='@/assets/curso/images/tema2/img_20.svg', alt='Imagen Decorativa')
             .col-md-9
               p.mt-3.p-1 Una vez separados los productos dañados y seleccionados los que cumplen y están en buenas condiciones se les realiza un proceso de selección que puede realizarse de forma manual o mediante el empleo de equipos y máquinas como:
       .col-lg-5.mb-4.mb-lg-0(data-aos="fade-left")
         figure
-          img.img-t.m-auto(src='@/assets/curso/images/tema2/img_21.png', alt='')
+          img.img-t.m-auto(src='@/assets/curso/images/tema2/img_21.png', alt='Imagen Decorativa')
     
     .row.justify-content-center.mb-5
       .col-lg-5.col-lg.mb-3.mb-lg-0
         .tarjeta-avatar
-          img.img-t.m-auto(src='@/assets/curso/images/tema2/img_22.svg', style="width: 130px")
+          img.img-t.m-auto(src='@/assets/curso/images/tema2/img_22.svg', alt='Imagen Decorativa' style="width: 130px")
           .tarjeta.color-acento-contenido2
             .p-4
               p.text-center Tamices de apertura fija, fondo plano, tambor.
 
       .col-lg-5.col-lg.mb-3.mb-lg-0
         .tarjeta-avatar
-          img.img-t.m-auto(src='@/assets/curso/images/tema2/img_23.svg', style="width: 130px")
+          img.img-t.m-auto(src='@/assets/curso/images/tema2/img_23.svg', alt='Imagen Decorativa' style="width: 130px")
           .tarjeta.color-secundario2
             .p-4
               p.text-center Seleccionadoras de abertura variable, rodillo, cuerda, cable, cinta, tornillo, disco, cilindro, células fotoeléctricas, entre otras.
@@ -177,66 +177,34 @@
     .row.align-items-center.mb-4
       .col-lg-5.mb-4.mb-lg-0(data-aos="fade-left")
         figure
-          img.img-t.m-auto(src='@/assets/curso/images/tema2/img_24.png', alt='')
+          img.img-t.m-auto(src='@/assets/curso/images/tema2/img_24.png', alt='Imagen Decorativa')
       .col-lg-7(data-aos="fade-right")
         p Este proceso se realiza con la finalidad de obtener productos sanos sin deformaciones ni daños mecánicos, que sean de la misma variedad, como tamaño uniforme (peso y forma), además de un grado de madurez adecuado.  
         .cajon.color-secundario.p-3.ps-4.bg_18.mb-5.mb-lg-0
           p.mt-3.p-1 Después, se lleva a cabo la operación de clasificación, que consiste en unificar y agrupar de acuerdo con categorías y grados de calidad que se manejan principalmente a la hora de la comercialización, siendo las clases comerciales:
-        img.img-t.m-auto(src='@/assets/curso/images/tema2/img_25.svg', alt='')
+        img.img-t.m-auto(src='@/assets/curso/images/tema2/img_25.svg', alt='Extra, Primera, Segunda y Tercera')
       p Esta clasificación se obtiene como lo indica Borrero Ortiz, M., & Urrea López, M. (2007), de acuerdo con la suma total de los daños e imperfectos (manchas, cicatrices, magulladuras, rasguños, etc.), pero sin dejar de lado las exigencias y criterios relacionados con el aspecto externo (color, forma, firmeza, grado de madurez, imperfecciones), aspecto interno (daños internos), cualidades organolépticas (aroma, sabor, textura) y valor nutricional y sanitario.
     
-    .row.align-items-center.mb-2
+    .row.mb-5
       p.text-bold A continuación, se describen los parámetros utilizados en la clasificación:
       .col-lg-8
-        TabsA.color-secundario.mb-5
+        TabsA.color-secundario
 
           .tarjeta.color-secundario-claro.p-4(titulo="Color, aroma y sabor")
             p Se pueden medir mediante las características de la carta colorimétrica para cada producto; o mediante los índices de madurez.
           
           .tarjeta.color-secundario-claro.p-4(titulo="Carencia de imperfecciones")
-            h4 PASO 2: The splendor
-
-            .row
-              .col-xl-6.mb-4
-                figure
-                  img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-                  figcaption Leyenda de la imagen
-              .col-xl-6
-                p This is a normal paragraph (<code>p</code> element). To add some length to it, let us mention that this page was primarily written for testing the effect of 
-                  strong user style sheets
-                  |. You can use it for various other purposes as well, like just checking how your browser displays various HTML elements by default. It can also be useful when testing conversions from HTML format to other formats, since some elements can go wrong then.
-                p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-       
+            p Las imperfecciones se miden en porcentaje con respecto al total del producto y así clasificar el producto de acuerdo con el mercado.
+          
           .tarjeta.color-secundario-claro.p-4(titulo="Madurez óptima")
-            h4 PASO 2: The splendor
-
-            .row
-              .col-xl-6.mb-4
-                figure
-                  img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-                  figcaption Leyenda de la imagen
-              .col-xl-6
-                p This is a normal paragraph (<code>p</code> element). To add some length to it, let us mention that this page was primarily written for testing the effect of 
-                  strong user style sheets
-                  |. You can use it for various other purposes as well, like just checking how your browser displays various HTML elements by default. It can also be useful when testing conversions from HTML format to other formats, since some elements can go wrong then.
-                p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-
+            p Según las condiciones exigidas por los compradores, se clasifica para las operaciones de industrialización.
+          
           .tarjeta.color-secundario-claro.p-4(titulo="Forma")
-            h4 PASO 2: The splendor
-
-            .row
-              .col-xl-6.mb-4
-                figure
-                  img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-                  figcaption Leyenda de la imagen
-              .col-xl-6
-                p This is a normal paragraph (<code>p</code> element). To add some length to it, let us mention that this page was primarily written for testing the effect of 
-                  strong user style sheets
-                  |. You can use it for various other purposes as well, like just checking how your browser displays various HTML elements by default. It can also be useful when testing conversions from HTML format to other formats, since some elements can go wrong then.
-                p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+            p La forma incluye peso y forma, con la finalidad de darle uniformidad a los lotes.
+          
       .col-lg-4 
         figure
-          img.img-t.m-auto(src='@/assets/curso/images/tema2/img_24.png', alt='')
+          img.img-t.m-auto(src='@/assets/curso/images/tema2/img_42.png', alt='Imagen Decorativa')
 
     p Actualmente existen guías para diferentes frutas y hortalizas que facilitan y estandarizan el proceso de selección y clasificación de acuerdo con la normatividad existente, las exigencias del mercado y a los atributos de mayor importancia y relevancia.
 
@@ -248,7 +216,7 @@
     .row.justify-content-center.mb-5
       .col-8.col-lg-4
         figure
-          img(src="@/assets/curso/images/tema2/img_26.svg", alt="alt")
+          img(src="@/assets/curso/images/tema2/img_26.svg", alt="Muestra el componente formativo los daño por plagas: Selección y clasificación. Enfermedades por hongos: selección y clasificación. Categoría de calidad: selección y clasificación. Categoría de calidad: selección y clasificación. Categoría de calidad: norma")
       .col-lg-8
       
         LineaTiempoD.color-acento-contenido
@@ -339,7 +307,7 @@
           span  Color clasificación de la mora  
               
         figure
-          img(src='@/assets/curso/images/tema2/img_27.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/images/tema2/img_27.svg', alt='Muestra la tabla el color de clasificación de la mora, según su grado de madures: Detalle, Color del fruto, Color de referencia')
 
 </template>
 

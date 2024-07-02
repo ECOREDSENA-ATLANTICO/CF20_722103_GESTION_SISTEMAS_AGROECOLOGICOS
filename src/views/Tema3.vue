@@ -161,44 +161,32 @@
     
     .row.justify-content-center.align-items-center.mb-5    
       .col-lg-3
-        .tarjeta.jumbotron 
+        .tarjeta.bg1
           .row.justify-content-center
             .col-12
               img(src='@/assets/curso/images/tema3/img_26.png' alt='AvatarTop')
-          p.p-4 
-            span.text-bold Lesión 
-            br 
-            | Pérdida de sustancia (amputaciones) o sin pérdida (tatuajes) 
+          p.p-4.text-center Gelación térmica 
       
       .col-lg-3
         .tarjeta.jumbotron 
           .row.justify-content-center
             .col-12
               img(src='@/assets/curso/images/tema3/img_25.png' alt='AvatarTop')
-          p.p-4 
-            span.text-bold Lesión 
-            br 
-            | Pérdida de sustancia (amputaciones) o sin pérdida (tatuajes) 
+          p.p-4.text-center Solidificación
       
       .col-lg-3
         .tarjeta.jumbotron 
           .row.justify-content-center
             .col-12
               img(src='@/assets/curso/images/tema3/img_24.png' alt='AvatarTop')
-          p.p-4 
-            span.text-bold Lesión 
-            br 
-            | Pérdida de sustancia (amputaciones) o sin pérdida (tatuajes) 
+          p.p-4.text-center Microfluidización 
       
       .col-lg-3
         .tarjeta.jumbotron 
           .row.justify-content-center
             .col-12
               img(src='@/assets/curso/images/tema3/img_23.png' alt='AvatarTop')
-          p.p-4 
-            span.text-bold Lesión 
-            br 
-            | Pérdida de sustancia (amputaciones) o sin pérdida (tatuajes) 
+          p.p-4.text-center Pulverización electrohidrodinámica
 
     
     

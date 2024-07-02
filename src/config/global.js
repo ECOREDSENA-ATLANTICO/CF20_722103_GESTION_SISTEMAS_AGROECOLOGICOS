@@ -51,20 +51,6 @@ export default {
         numero: '2',
         titulo: 'Acondicionamiento',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Recepción y separación',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Selección y clasificación',
-            hash: 't_2_2',
-          },
-        ],
       },
       {
         nombreRuta: 'tema3',
@@ -86,20 +72,6 @@ export default {
         numero: '5',
         titulo: 'Almacenamiento',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '5.1',
-            titulo: 'Técnicas y condiciones',
-            hash: 't_5_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '5.2',
-            titulo: 'Variables',
-            hash: 't_5_2',
-          },
-        ],
       },
       {
         nombreRuta: 'tema6',
@@ -107,20 +79,6 @@ export default {
         numero: '6',
         titulo: 'Trazabilidad',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '6.1',
-            titulo: 'Importancia y responsabilidades',
-            hash: 't_6_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '6.2',
-            titulo: 'Análisis de peligros y puntos críticos de control',
-            hash: 't_6_2',
-          },
-        ],
       },
     ],
     subMenu: [
@@ -166,49 +124,38 @@ export default {
   referencias: [
     {
       referencia:
-        'Agencia Japonesa de Cooperación Internacional. (s.f.). VI. Manejo y cría de ganado bovino.',
+        'Borrero Ortiz, M., & Urrea López, M. (2007). Modulo Poscosecha. Escuela de Ciencias Agrícolas, Pecuarias y del Medio Ambiente.',
+    },
+    {
+      referencia:
+        'Camelo, A. (2003). Manual para la preparación y venta de frutas y hortalizas. Roma: FAO',
+    },
+    {
+      referencia:
+        'Fernández Valdés, Daybelis, Bautista Baños, Silvia, Fernández Valdés, Dayvis, Ocampo Ramírez, Arturo, García Pereira, Annia, & Falcón Rodríguez, Alejandro. (2015). Películas y recubrimientos comestibles: una alternativa favorable en la conservación poscosecha de frutas y hortalizas. Revista Ciencias Técnicas Agropecuarias, 24(3), 52-5',
       link:
-        'https://www.jica.go.jp/project/bolivia/3065022E0/04/pdf/4-3-1_10.pdf',
+        'http://scielo.sld.cu/scielo.php?script=sci_arttext&pid=S2071-00542015000300008&lng=es&tlng=es',
     },
     {
       referencia:
-        'Bertucci, A. (s.f.). Anatomía y fisiología animal. Facultad de Ciencias Agrarias.',
-      link:
-        'https://www.fca-ude.edu.uy/upload/Materiales/ANATOMIA_Y_FISIOLOGIA-0113-0003.pdf',
+        'Gobernación del Tolima, Universidad de Ibagué, Universidad del Tolima y Sena Regional Tolima. (2017). Protocolo de buenas prácticas para poscosecha de la mora de Castilla (Rubus glaucus Benth). Logística para la cadena Hortofrutícola del Tolima. Convenio N° 1032-2103.',
     },
     {
       referencia:
-        'Instituto Colombiano Agropecuario. (2006). Bienestar Animal: Nuevo reto para la ganadería',
-      link:
-        'https://www.ica.gov.co/areas/pecuaria/servicios/enfermedades-animales',
+        'Ospina Arias, J. C. (2015). Fundamentos de envases y embalajes. Servicio Nacional de Aprendizaje SENA. ISBN: 978-958-8921-20-4',
     },
     {
       referencia:
-        'Instituto Interamericano de Cooperación para la Agricultura (IICA). (2009). Manual de Buenas Prácticas en Explotaciones Ganaderas de Carne Bovina.',
-      link: 'https://www.biopasos.com/documentos/048.pdf',
+        'Sevilla, E., Ortiz, F., & López, M. (2013). Introducción a la trazabilidad en la industria agroalimentaria.',
     },
     {
       referencia:
-        'Ministerio de Agricultura. (s.f.). Capítulo 2. Movilización de ganado',
-      link:
-        'https://www.minagricultura.gov.co/Normatividad/Paginas/Decreto-1071-2015/CAPITULO-2-Movilizacion-de-Ganado.aspx',
+        'Solano-Doblado, Luz Georgina, Alamilla-Beltrán, Liliana, & Jiménez-Martínez, Cristian. (2018). Películas y recubrimientos comestibles funcionalizados. TIP. Revista especializada en ciencias químico-biológicas, 21(Supl. 2), e20180153. Epub 02 de diciembre de 2020',
+      link: 'https://doi.org/10.22201/fesz.23958723e.2018.0.153',
     },
     {
       referencia:
-        'Salas, M. & Manteca, X. (2016). Evaluación del bienestar en animales de zoológico: indicadores basados en el animal. Centro de educación en bienestar de animales de zoológico.',
-      link: 'http://www.zawec.org/media/com_lazypdf/pdf/Ficha%20ZAWEC%204.pdf',
-    },
-    {
-      referencia:
-        'Tafur Garzón, A. & Acosta Barbosa J.M. (2006). Bienestar Animal: Nuevo reto para la ganadería. ICA.',
-      link:
-        'https://www.ica.gov.co/getattachment/79b98e64-a258-46d5-9ce1-1375a8312434/Publicacion-20.aspx',
-    },
-    {
-      referencia:
-        'Universidad de Córdoba. (s.f.). Tema 23. El manejo de los animales domésticos enfocado hacia la protección animal. Control del comportamiento, manejo y modos de contención.',
-      link:
-        'http://www.uco.es/organiza/departamentos/prod-animal/economia/aula/img/pictorex/06_07_09_TEMA_23.pdf',
+        'Torres, E. G., Matos, A. R., Fernández, M. O., & Sánchez, O. M. (2005). El Análisis de Peligros y Puntos Críticos de Control (HACCP) como instrumento para la reducción de los peligros biológicos. REDVET. Revista Electrónica de Veterinaria, 6(9), 1-14',
     },
   ],
   glosario: [
@@ -258,39 +205,64 @@ export default {
   ],
   complementario: [
     {
-      tema: '1. Identificación animal',
+      tema: 'Poscosecha',
       referencia:
-        'Aula vet. (2021, marzo 22). Terminología Anatómica - Anatomía Veterinaria. [Video]. YouTube.',
-      tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=cZGVzjbJKgY',
+        'Thompson, A. K. (1998). Tecnología post-cosecha de frutas y hortalizas.',
+      tipo: 'Libro',
+      link:
+        'https://repositorio.sena.edu.co/bitstream/handle/11404/6488/tecnologia_post_cosecha_frutas_hortalizas.pdf?sequence=1&isAllowed=y',
     },
     {
-      tema: '2. Anatomía de las especies pecuarias.',
+      tema: 'Poscosecha',
       referencia:
-        'Agro tendencia. (2020, 29 de octubre). Tecnologías de identificación animal | Agro para el siglo 21. [Video]. YouTube.',
+        'Food and Agriculture Organization of the United Nations FAO. (2013). Manejo postcosecha, procesamiento e higiene de frutas y hortalizas.',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=oBd03GITIBM',
+      link: 'https://www.youtube.com/watch?v=63aguf2YXo0',
     },
     {
-      tema: '3. Anatomía de las especies pecuarias.',
+      tema: 'Acondicionamiento',
       referencia:
-        'TvAgro. (2018, 25 de septiembre). INCREÍBLES tratamientos alternativos para ANIMALES - TvAgro por Juan Gonzalo Angel. [Video]. YouTube. ',
-      tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=qCNc27m-CUk',
+        'Gobernación del Tolima, Universidad de Ibagué, Universidad del Tolima y Sena Regional Tolima. (2017). Guías para la selección y clasificación.',
+      tipo: 'Guías y protocolos',
+      link:
+        'https://logihfrutic.unibague.edu.co/buenas-practicas/guias-poscosecha',
     },
     {
-      tema: '4. Tratamientos alternativos',
+      tema: 'Recubrimientos y encerados',
       referencia:
-        'Senasa Comunica. (2017, 24 de agosto). Bienestar animal. [Video]. YouTube.',
-      tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=eJymjFBeJNE',
+        'Cerón , J. P. Q. (2010). Películas y recubrimientos comestibles: importancia y tendencias recientes en la cadena hortofrutícola. Revista tumbaga, 1(5).',
+      tipo: 'Artículo',
+      link: 'http://revistas.ut.edu.co/index.php/tumbaga/article/view/59',
     },
     {
-      tema: '5. Registro',
+      tema: 'Recubrimientos y encerados',
       referencia:
-        'COASGROP HIJOS DEL CAMPO. (2021, 26 de agosto). Bioseguridad en las explotaciones pecuarias. [Video]. YouTube.',
+        'Pacheco, Pérez. W. (2021). Conferencia recubrimiento comestibles en poscosecha. Unilasallista. Corporación universitaria',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=zgWVX_cWMeo',
+      link: 'https://www.youtube.com/watch?v=Cubc__Fw5Do',
+    },
+    {
+      tema: 'Etiquetado',
+      referencia:
+        'Cámara de comercio de Bogotá (2019). Seminario empaques y embalajes para exportación.',
+      tipo: 'Seminario',
+      link:
+        'https://bibliotecadigital.ccb.org.co/bitstream/handle/11520/3049/2949_empaques_y_embalajes2.pdf',
+    },
+    {
+      tema: 'Almacenamiento',
+      referencia:
+        'Arrarte, E. (2019). Estrategias para mantener la calidad de frutas durante el almacenamiento poscosecha en frío.',
+      tipo: 'Libro',
+      link:
+        'https://www.colibri.udelar.edu.uy/jspui/bitstream/20.500.12008/32172/1/TD%20Arrarte%2c%20Elo%c3%adsa.pdf',
+    },
+    {
+      tema: 'Trazabilidad',
+      referencia:
+        'Ecosistemas de Recursos Educativos ECORED. (2020). Trazabilidad',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=YYuztIQETBc',
     },
   ],
   creditos: [
