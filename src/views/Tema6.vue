@@ -7,12 +7,12 @@
         span 6
       h1 Trazabilidad
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-4
+    .row.justify-content-center.align-items-center.mb-3
+      .col-lg-4.mb-3
         figure
-          img.img-t(src='@/assets/curso/images/tema6/img_1.svg', alt='')
+          img.img-t(src='@/assets/curso/images/tema6/img_1.png', alt='Imagen Decorativa')
       .col-lg-8.mb-3
-        .cajon.color-acento-contenido.p-4.ps-5.bg_18.mb-5.mb-lg-0
+        .cajon.color-acento-contenido.p-4.ps-5.bg_18.mb-3
           p.m-0 Actualmente debido a las crisis alimentarias y la aparición de enfermedades zoonóticas, ha aumentado el cuidado y prevención por parte de los consumidores, generando que el sector agroalimentario se preocupe y se enfoque en asegurar a los consumidores la calidad de los productos ofrecidos, mediante la implementación de medidas de carácter obligatorio, como también disposiciones voluntarias como la trazabilidad. 
         p.mt-2 Debido a que la trazabilidad permite conocer el origen de los productos y hacerle seguimiento a lo largo de todo el proceso poscosecha hasta llegar al comprador final, lo que beneficia la seguridad alimentaria y da garantía al consumidor, pues existen registros y rastro de donde viene el producto, por donde paso y a donde llegó, es decir como lo indica Sevilla, E., Ortiz, F., & López, M. (2013), permite obtener una trazabilidad ascendente, descendente y total o también denominada hacia atrás, hacia adelante e interna. En el caso de presentarse errores, estos se pueden detectar y saber dónde se originó para así tomar las medidas correctivas necesarias y garantizar la inocuidad de los productos.
     
@@ -21,8 +21,13 @@
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 6.
           span Sentidos de la trazabilidad
-        figure
-          img.img-t.mb-2(src='@/assets/curso/images/tema6/img_2.png', alt='')
+        figure.d-block.d-lg-none
+          img.mb-3(src='@/assets/curso/images/tema6/img_2m.svg', alt='Muestra la figura los sentidos de la trazabilidad: Ascendentes, Descendentes, Trazabilidad hacia adelante, Trazabilidad hacia atrás')
+          figcaption 
+            span.text-bold Nota. 
+            | Sena 2022
+        figure.d-none.d-lg-block
+          img.mb-3(src='@/assets/curso/images/tema6/img_2.svg', alt='Muestra la figura los sentidos de la trazabilidad: Ascendentes, Descendentes, Trazabilidad hacia adelante, Trazabilidad hacia atrás')
           figcaption 
             span.text-bold Nota. 
             | Sena 2022
@@ -97,11 +102,18 @@
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 7.
           span Ámbitos de la trazabilidad
-        figure
-          img.img-t.mb-2(src='@/assets/curso/images/tema6/img_5.svg', alt='')
+        
+        figure.d-block.d-lg-none
+          img.img-t.mx-auto.mb-3(src='@/assets/curso/images/tema6/img_5m.svg',alt='Muestra la figura el Ámbitos de la trazabilidad: Parcela, Recolección, Confección, Transporte, Distribución, Trazabilidad')
           figcaption 
-            span.text-bold Nota. 
-            | Sevilla, E., Ortiz, F., & López, M. (2013)
+              span.text-bold Nota. 
+              | Sevilla, E., Ortiz, F., & López, M. (2013)
+      
+        figure.d-none.d-lg-block
+          img.img-t.mx-auto.mb-3(src='@/assets/curso/images/tema6/img_5.svg', alt='Muestra la figura el Ámbitos de la trazabilidad: Parcela, Recolección, Confección, Transporte, Distribución, Trazabilidad')
+          figcaption 
+              span.text-bold Nota. 
+              | Sevilla, E., Ortiz, F., & López, M. (2013)
                
     .row.justify-content-center.align-items-center.mb-0
       .col-lg-12.mb-5
@@ -118,7 +130,7 @@
           h5 Figura 8.
           span Importancia y beneficios de la trazabilidad
         figure
-          img.img-t.mb-2(src='@/assets/curso/images/tema6/img_7.svg', alt='')
+          img.img-t.mb-2(src='@/assets/curso/images/tema6/img_7.svg', alt='La figura muestra la Importancia y beneficios de la trazabilidad en las empresas, consumidores y entes de control.')
                    
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8.mb-3
@@ -126,7 +138,7 @@
           p.m-0 Pero, así como se obtienen beneficios mediante la aplicación de sistemas de trazabilidad, también las empresas, los consumidores y los entes de control tiene responsabilidades y deben cumplir obligaciones, siendo necesario el sistema de trazabilidad obtenga, procese y recupere información sobre los productos, materias primas, procesos y en general de todas las actividades que se realicen y estén bajo su dominio y así lograr identificar adecuadamente los productos y obtener la trazabilidad a lo largo de toda la cadena.
       .col-lg-4
         figure
-          img.img-t(src='@/assets/curso/images/tema6/img_8.png', alt='')
+          img.img-t(src='@/assets/curso/images/tema6/img_8.png', alt='Imagen Decorativa')
   
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-9
@@ -134,7 +146,7 @@
           h5 Figura 9.
           span Responsabilidades en la trazabilidad
         figure
-          img.img-t.mb-2(src='@/assets/curso/images/tema6/img_9.svg', alt='')
+          img.img-t.mb-2(src='@/assets/curso/images/tema6/img_9.svg', alt='Muestra la figura la responsabilidades en la trazabilidad en las empresa y entes de control.')
     
     
     figure.d-flex.align-items-center.mb-4#t_6_2
@@ -156,7 +168,7 @@
               p.mt-3 Como indica Torres, E. G., Matos, A. R., Fernández, M. O., & Sánchez, O. M. (2005), el sistema HACCP mediante un acompañamiento, seguimiento detallado, con el empleo de técnicas y medidas de monitoreo constante se logra tener control del proceso y de los puntos críticos y peligros potenciales que afectan la inocuidad. 
           
       .col-md-12
-        .cajon.color-acento-botones.p-4.ps-5.bg_18.mb-5.mb-lg-0
+        .cajon.bg-lightyellow.p-4.ps-5.bg_18.mb-5.mb-lg-0
           p.m-0 Debido a que el sistema HACCP se fundamente en una secuencia fases que están interrelacionadas empleadas en todos las etapas y eslabones de la cadena de producción, es decir desde la producción primaria hasta la comercialización y de acuerdo con el decreto 60 de 2002, en el artículo 4 establece que el sistema HACCP se fundamenta en la aplicación de 7 principios:
     
     .row.justify-content-center.align-items-center.mb-5
@@ -164,12 +176,21 @@
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 10.
           span Principios HACCP
-        figure
-          img.img-t.mb-5(src='@/assets/curso/images/tema6/img_12.png', alt='')
+
+        figure.d-block.d-lg-none
+          img.img-t.mx-auto.mb-2(src='@/assets/curso/images/tema6/img_12m.svg', alt='Muestra la figura el Ámbitos de la trazabilidad: Parcela, Recolección, Confección, Transporte, Distribución, Trazabilidad')
           figcaption 
-            span.text-bold Nota. 
-            | Sistema de análisis de peligros y de puntos críticos de control (HACCP) y directrices para su aplicación. (2021, febrero 9).
+              span.text-bold Nota. 
+              | Sistema de análisis de peligros y de puntos críticos de control (HACCP) y directrices para su aplicación. (2021, febrero 9).
       
+        figure.d-none.d-lg-block
+          img.img-t.mx-auto.mb-2(src='@/assets/curso/images/tema6/img_12.svg', alt='Muestra la figura el Ámbitos de la trazabilidad: Parcela, Recolección, Confección, Transporte, Distribución, Trazabilidad')
+          figcaption 
+              span.text-bold Nota. 
+              | Sistema de análisis de peligros y de puntos críticos de control (HACCP) y directrices para su aplicación. (2021, febrero 9).
+      
+       
+
   </template>
 
 <script>

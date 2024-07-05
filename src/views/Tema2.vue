@@ -10,12 +10,17 @@
     .row.justify-content-center.align-items-center.mb-4  
       p.text-center.mb-5 En poscosecha las operaciones de acondicionamiento incluyen principalmente las actividades de:
       .col-lg-8.mb-5
-        figure
-          img.img-t.m-auto(src='@/assets/curso/images/tema2/img_1.svg', alt='Recepción, Separación, Limpieza, Selección y Clasificación.')
+        figure.d-block.d-lg-none
+          img.img-t.mx-auto(src='@/assets/curso/images/tema2/img_1m.svg', alt='Recepción, Separación, Limpieza, Selección y Clasificación.')
+        figure.d-none.d-lg-block
+          img.img-t.mx-auto(src='@/assets/curso/images/tema2/img_1.svg', alt='Recepción, Separación, Limpieza, Selección y Clasificación.')
+  
       p.text-center.mb-5 Estas, se enfocan en preparar los productos para ser:
       .col-lg-8.mb-5
-        figure
-          img.img-t.m-auto(src='@/assets/curso/images/tema2/img_2.svg', alt='Empacados, Almacenados, Transportados y Comercializados')
+        figure.d-block.d-lg-none
+          img.img-t.mx-auto(src='@/assets/curso/images/tema2/img_2m.svg', alt='Empacados, Almacenados, Transportados y Comercializados')
+        figure.d-none.d-lg-block
+          img.img-t.mx-auto(src='@/assets/curso/images/tema2/img_2.svg', alt='Empacados, Almacenados, Transportados y Comercializados')
     
     .row.align-items-center.mb-4
       .col-lg-5.mb-4.mb-lg-0(data-aos="fade-left")
@@ -34,9 +39,11 @@
       .tarjeta.tarjeta--blanca.p-4.col-lg-8
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 1.
-          span  Calidad en los alimentos  
-              
-        figure
+          span  Calidad en los alimentos     
+          
+        figure.d-block.d-lg-none
+          img(src='@/assets/curso/images/tema2/img_5m.svg', alt='Muestra el componente formativo la calidad en los alimentos. Estos acondicionamientos permiten preservar y potencializar los productos para su consumo: Calidad agropecuaria, Calidad comercial, Calidad industrial, Calidad nutricional')
+        figure.d-none.d-lg-block
           img(src='@/assets/curso/images/tema2/img_5.svg', alt='Muestra el componente formativo la calidad en los alimentos. Estos acondicionamientos permiten preservar y potencializar los productos para su consumo: Calidad agropecuaria, Calidad comercial, Calidad industrial, Calidad nutricional')
 
     .row.align-items-center.mb-4
@@ -62,7 +69,7 @@
             p.mb-0 La recepción es la primera actividad que se realiza en poscosecha, una vez realizado el proceso de recolección, los productos son enviados a los centros de acopio donde son recepcionados e inspeccionados teniendo en cuenta factores como:
       .col-lg-8.mb-5
         figure
-          img.img-t.m-auto(src='@/assets/curso/images/tema2/img_8.svg', alt='Color, Olor, Apariencia, Sabor, Textura, Consistencia, Impactos, Cortes y Daños.')
+          img.img-t.m-auto(src='@/assets/curso/images/tema2/img_8.png', alt='Color, Olor, Apariencia, Sabor, Textura, Consistencia, Impactos, Cortes y Daños.')
 
     .row.align-items-center.mb-4
       .col-lg-5.mb-4.mb-lg-0(data-aos="fade-left")
@@ -111,7 +118,7 @@
     .row.justify-content-center.mb-5
       .col-lg-3.col-lg.mb-3.mb-lg-0
         .tarjeta-avatar
-          img.img-t.m-auto(src='@/assets/curso/images/tema2/img_16.svg' alt="Imagen Decorativa")
+          img.img-t.m-auto(src='@/assets/curso/images/tema2/img_16.png' alt="Imagen Decorativa")
           .tarjeta.color-secundario-claro-redondeo
             .p-4
               h4.text-center.p-4.mb-0 Madurez
@@ -119,7 +126,7 @@
       
       .col-lg-3.col-lg.mb-3.mb-lg-0
         .tarjeta-avatar
-          img.img-t.m-auto(src='@/assets/curso/images/tema2/img_17.svg' alt="Imagen Decorativa")
+          img.img-t.m-auto(src='@/assets/curso/images/tema2/img_17.png' alt="Imagen Decorativa")
           .tarjeta.color-secundario-claro-redondeo
             .p-4
               h4.text-center.p-4.mb-0 Falta de madurez
@@ -127,7 +134,7 @@
       
       .col-lg-3.col-lg.mb-3.mb-lg-0
         .tarjeta-avatar
-          img.img-t.m-auto(src='@/assets/curso/images/tema2/img_18.svg' alt="Imagen Decorativa")
+          img.img-t.m-auto(src='@/assets/curso/images/tema2/img_18.png' alt="Imagen Decorativa")
           .tarjeta.color-secundario-claro-redondeo
             .p-4
               h4.text-center.p-4.mb-0 Deformidad
@@ -135,7 +142,7 @@
       
       .col-lg-3.col-lg.mb-3.mb-lg-0
         .tarjeta-avatar
-          img.img-t.m-auto(src='@/assets/curso/images/tema2/img_19.svg' alt="Imagen Decorativa" )
+          img.img-t.m-auto(src='@/assets/curso/images/tema2/img_19.png' alt="Imagen Decorativa" )
           .tarjeta.color-secundario-claro-redondeo
             .p-4
               h4.text-center.p-4.mb-0 Daño
@@ -190,16 +197,16 @@
       .col-lg-8
         TabsA.color-secundario
 
-          .tarjeta.color-secundario-claro.p-4(titulo="Color, aroma y sabor")
+          .tarjeta.color-secundario-claro.p-4.mb-2(titulo="Color, aroma y sabor")
             p Se pueden medir mediante las características de la carta colorimétrica para cada producto; o mediante los índices de madurez.
           
-          .tarjeta.color-secundario-claro.p-4(titulo="Carencia de imperfecciones")
+          .tarjeta.color-secundario-claro.p-4.mb-2(titulo="Carencia de imperfecciones")
             p Las imperfecciones se miden en porcentaje con respecto al total del producto y así clasificar el producto de acuerdo con el mercado.
           
-          .tarjeta.color-secundario-claro.p-4(titulo="Madurez óptima")
+          .tarjeta.color-secundario-claro.p-4.mb-2(titulo="Madurez óptima")
             p Según las condiciones exigidas por los compradores, se clasifica para las operaciones de industrialización.
           
-          .tarjeta.color-secundario-claro.p-4(titulo="Forma")
+          .tarjeta.color-secundario-claro.p-4.mb-2(titulo="Forma")
             p La forma incluye peso y forma, con la finalidad de darle uniformidad a los lotes.
           
       .col-lg-4 
@@ -216,98 +223,240 @@
     .row.justify-content-center.mb-5
       .col-8.col-lg-4
         figure
-          img(src="@/assets/curso/images/tema2/img_26.svg", alt="Muestra el componente formativo los daño por plagas: Selección y clasificación. Enfermedades por hongos: selección y clasificación. Categoría de calidad: selección y clasificación. Categoría de calidad: selección y clasificación. Categoría de calidad: norma")
+          img(src="@/assets/curso/images/tema2/img_26.png", alt="Muestra el componente formativo los daño por plagas: Selección y clasificación. Enfermedades por hongos: selección y clasificación. Categoría de calidad: selección y clasificación. Categoría de calidad: selección y clasificación. Categoría de calidad: norma")
       .col-lg-8
       
         LineaTiempoD.color-acento-contenido
           .row(numero="1" titulo="Daño por plagas: selección y clasificación")
             .col-md-6.mb-3
-              .tarjeta-avatar-b.mb-3
+              .tarjeta-avatar-b.mb-3.h-100
                 .tarjeta-avatar-b__img
-                  img.img-t.m-auto(src='@/assets/curso/images/tema2/img_34.svg', alt='')
-                .tarjeta.shadow-sm
-                  p.text-bold.p-4.mt-2 Daño por mordeduras
+                  img.img-t.m-auto(src='@/assets/curso/images/tema2/img_34.png', alt='Imagen Decorativa')
+                .tarjeta.shadow-sm.bg_white.d-flex.align-items-center
+                  p.text-bold.p-3.mb-0 Daño por mordeduras
             
             .col-md-6.mb-3
-              .tarjeta-avatar-b.mb-3
+              .tarjeta-avatar-b.mb-3.h-100
                 .tarjeta-avatar-b__img
-                  img.img-t.m-auto(src='@/assets/curso/images/tema2/img_35.svg', alt='')
-                .tarjeta.shadow-sm
-                  p.text-bold.p-4.mt-2 Daño por larvas
-                  
-            .col-md-12.mb-3
-              img.img-t.m-auto(src='@/assets/curso/images/tema2/img_28.svg', alt='')
+                  img.img-t.m-auto(src='@/assets/curso/images/tema2/img_35.png', alt='Imagen Decorativa')
+                .tarjeta.shadow-sm.bg_white.d-flex.align-items-center
+                  p.text-bold.p-3.mb-0 Daño por larvas
+
+            .tabla-b.mb-3
+              table.min-100
+                thead.bg-color-secundario
+                  tr
+                    td 
+                      b Selección y clasificación
+                    td 
+                      b Instrumento
+                tbody.bg_white
+                  tr
+                    td Seleccionar, recolectar y clasificar para comercialización los frutos que se encuentren libres de daños y enfermedades ocasionadas por plagas, como: 
+                      ul 
+                        li • Deformación 
+                        li • Larvas 
+                        li • Daños por insectos (arrugas, chupones, mordeduras).
+                    td 
+                      ul 
+                        li • Percepción visual
+                        li • Herramienta de corte
+                        li • Recipiente colector 
+                        li • Canastilla para producto dañado 
+                        li • Empaque para comercialización
 
             p 
               span.text-bold Recomendación: 
               | Realizar constante inspección del cultivo para verificar que se encuentre libre de daños y/o enfermedades, en caso contrario, realizar adecuada disposición de los frutos dañados y manejo cultural y/o agroecológico para evitar propagación.
 
+
           .row(numero="2" titulo="Enfermedades por hongos: selección y clasificación")
             .col-md-6.mb-3
-              .tarjeta-avatar-b.mb-3
+              .tarjeta-avatar-b.mb-3.h-100
                 .tarjeta-avatar-b__img
-                  img.img-t.m-auto(src='@/assets/curso/images/tema2/img_37.svg', alt='')
-                .tarjeta.shadow-sm
-                  p.text-bold.p-4.mt-2 Daño por hongos en el cultivo
-                  
-            .col-md-12.mb-3
-              img.img-t.m-auto(src='@/assets/curso/images/tema2/img_29.svg', alt='')
+                  img.img-t.m-auto(src='@/assets/curso/images/tema2/img_36.png', alt='Imagen Decorativa')
+                .tarjeta.shadow-sm.bg_white.d-flex.align-items-center
+                  p.text-bold.p-3.mb-0 Daño por hongos en el cultivo
 
-          .row(numero="3" titulo="Categoría de calidad: selección y clasificación")
+            .tabla-b.mb-3
+              table.min-100
+                thead.bg-color-secundario
+                  tr
+                    td 
+                      b Selección y clasificación
+                    td 
+                      b Instrumento
+                tbody.bg_white
+                  tr
+                    td  
+                      p Mantener prolongadamente la mora en la mano y contener más de 2 frutos, aumenta el deterioro del fruto. 
+                      | Se recomienda reenvasar del recipiente recolector a la canastilla con una altura máxima de 30 cm para evitar daños por compresión y magullamiento de los frutos.
+
+                    td 
+                      ul 
+                        li • Percepción visual
+                        li • Canastilla para producto dañado        
+                        
+          .row(numero="3" titulo="Daño mecánico: selección y clasificación")
             .col-md-6.mb-3
-              .tarjeta-avatar-b.mb-3
+              .tarjeta-avatar-b.mb-3.h-100
                 .tarjeta-avatar-b__img
-                  img.img-t.m-auto(src='@/assets/curso/images/tema2/img_38.svg', alt='')
-                .tarjeta.shadow-sm
-                  p.text-bold.p-4.mt-2 Categoría de calidad: selección y clasificación
-                  
-            .col-md-12.mb-3
-              img.img-t.m-auto(src='@/assets/curso/images/tema2/img_30.svg', alt='')
-              
+                  img.img-t.m-auto(src='@/assets/curso/images/tema2/img_37.png', alt='Imagen Decorativa')
+                .tarjeta.shadow-sm.bg_white.d-flex.align-items-center
+                  p.text-bold.p-3.mb-0 Daño mecánico por compresión
+
+            .tabla-b.mb-3
+              table.min-100
+                thead.bg-color-secundario
+                  tr
+                    td 
+                      b Selección y clasificación
+                    td 
+                      b Instrumento
+                tbody.bg_white
+                  tr
+                    td  
+                      p Mantener prolongadamente la mora en la mano y contener más de 2 frutos, aumenta el deterioro del fruto.
+                      | Se recomienda reenvasar del recipiente recolector a la canastilla con una altura máxima de 30 cm para evitar daños por compresión y magullamiento de los frutos.
+                    td 
+                      ul 
+                        li • Percepción visual
+                        li • Canastilla para producto dañado 
+          
           .row(numero="4" titulo="Categoría de calidad: selección y clasificación")
-            .col-md-12.mb-3
-              img.img-t.m-auto(src='@/assets/curso/images/tema2/img_31.png', alt='')
-            
-              img.img-t.m-auto(src='@/assets/curso/images/tema2/img_32.svg', alt='')
-              
-          .row(numero="5" titulo="Categoría de calidad: norma")
-            p.mb-1 Las siguientes son algunas descripciones según la norma NCT 4601 de las condiciones que deben cumplir los frutos para las categorías de calidad.
-            .col-md-12.mb-3
-              img.img-t.m-auto(src='@/assets/curso/images/tema2/img_34.svg', alt='')
-            
-            .col-md-4.mb-3
-              .tarjeta-avatar-b.mb-3
-                .tarjeta-avatar-b__img
-                  img.img-t.m-auto(src='@/assets/curso/images/tema2/img_39.svg', alt='')
-                .tarjeta.shadow-sm
-                  p.text-bold.p-4.mt-2 Extra
-            .col-md-4.mb-3
-              .tarjeta-avatar-b.mb-3
-                .tarjeta-avatar-b__img
-                  img.img-t.m-auto(src='@/assets/curso/images/tema2/img_40.svg', alt='')
-                .tarjeta.shadow-sm
-                  p.text-bold.p-4.mt-2 Extra
-            .col-md-4.mb-3
-              .tarjeta-avatar-b.mb-3
-                .tarjeta-avatar-b__img
-                  img.img-t.m-auto(src='@/assets/curso/images/tema2/img_41.svg', alt='')
-                .tarjeta.shadow-sm
-                  p.text-bold.p-4.mt-2 Extra
                   
             .col-md-12.mb-3
-              img.img-t.m-auto(src='@/assets/curso/images/tema2/img_33.png', alt='')
-            p.mb-1 Cosechar los frutos de color rojo intenso con drupillas de color morado (Grado de maduración cinco GM 5) y clasificar de acuerdo a las especificaciones del mercado.
-         
+              img.img-t.m-auto(src='@/assets/curso/images/tema2/img_31.png', alt='Imagen Decorativa')
+
+            .tabla-b.mb-3
+              table.min-100
+                thead.bg-color-secundario
+                  tr
+                    td 
+                      b Selección y clasificación
+                    td 
+                      b Instrumento
+                tbody.bg_white
+                  tr
+                    td  
+                      p Clasificar las moras según lo demande el mercado de comercialización.
+                    td 
+                      p Empaque para comercialización de producto clasificado
+
+
+          .row(numero="5" titulo="Daño mecánico: selección y clasificación")
+            p Las siguientes son algunas descripciones según la norma NCT 4601 de las condiciones que deben cumplir los frutos para las categorías de calidad
+
+            .tabla-b.mb-3
+              table.min-100
+                thead.bg-color-secundario
+                  tr
+                    td 
+                      b Normas
+                    td 
+                      b Caracteristicas
+                tbody.bg_white
+                  tr
+                    td Extra
+                    td Con cáliz, firmes, enteras, forma regular, sin deformaciones en el ápice.
+                  tr
+                    td Primera
+                    td Con cáliz, firmes, enteras, forma regular, mínimas deformaciones en el ápice.
+                  tr
+                    td Segunda
+                    td Sin cáliz, forma irregular, deformaciones en el ápice.
+            .row
+              .col-md-4.mb-3
+                .tarjeta-avatar-b.mb-3.h-100
+                  .tarjeta-avatar-b__img
+                    img.img-t.m-auto(src='@/assets/curso/images/tema2/img_38.png', alt='Extra')
+                  .tarjeta.shadow-sm.bg_white.d-flex.align-items-center
+                    p.text-bold.p-3.mb-0 Extra
+              
+              .col-md-4.mb-3
+                .tarjeta-avatar-b.mb-3.h-100
+                  .tarjeta-avatar-b__img
+                    img.img-t.m-auto(src='@/assets/curso/images/tema2/img_39.png', alt='Primera')
+                  .tarjeta.shadow-sm.bg_white.d-flex.align-items-center
+                    p.text-bold.p-3.mb-0 Primera
+              
+              .col-md-4.mb-3
+                .tarjeta-avatar-b.mb-3.h-100
+                  .tarjeta-avatar-b__img
+                    img.img-t.m-auto(src='@/assets/curso/images/tema2/img_40.png', alt='Segunda')
+                  .tarjeta.shadow-sm.bg_white.d-flex.align-items-center
+                    p.text-bold.p-3.mb-0 Segunda
+
+            img.img-t.m-auto.mb-3(src='@/assets/curso/images/tema2/img_33.png', alt='Imagen Decorativa')
+
+            p.mb-4 Cosechar los frutos de color rojo intenso con drupillas de color morado (Grado de maduración cinco GM 5) y clasificar de acuerdo a las especificaciones del mercado.
+
+
+
     p.text-bold.text-center En relación con el color de la mora, a continuación, se muestra la tabla de colores utilizada para su clasificación:
     
     .row.justify-content-center.align-items-center.mb-5
-      .tarjeta.tarjeta--blanca.p-4.col-lg-8
+      .tarjeta.tarjeta--blanca.p-4.col-lg-12
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Tabla 1.
           span  Color clasificación de la mora  
               
-        figure
-          img(src='@/assets/curso/images/tema2/img_27.svg', alt='Muestra la tabla el color de clasificación de la mora, según su grado de madures: Detalle, Color del fruto, Color de referencia')
+        .tabla-a.mb-3
+            table.min-100
+              thead.bg1
+                tr
+                  td 
+                    b Grado de Madurez (GM)     
+                  td 
+                    b GM 1
+                  td 
+                    b GM 2
+                  td 
+                    b GM 3
+                  td 
+                    b GM 4
+                  td 
+                    b GM 5
+                  td 
+                    b GM 6
+              tbody.bg_white
+                tr
+                  td Detalle
+                  td Fruto de color amarillo verdoso con drupillas de color rosado
+                  td Fruto de color amarilloso en el que se incrementa el color rosado
+                  td Fruto de color rojo claro
+                  td Fruto de color vinotinto
+                  td Fruto de color mitad vinotinto y mitad morada
+                  td Fruto de color morado oscuro
+                tr
+                  td Color del fruto
+                  td 
+                    img.img-t(src='@/assets/curso/images/tema2/img_43.png', alt='Fruto de color amarillo verdoso con drupillas de color rosado	')
+                  td 
+                    img.img-t(src='@/assets/curso/images/tema2/img_44.png', alt='Fruto de color amarilloso en el que se incrementa el color rosado	')
+                  td 
+                    img.img-t(src='@/assets/curso/images/tema2/img_45.png', alt='Fruto de color rojo claro	')
+                  td
+                    img.img-t(src='@/assets/curso/images/tema2/img_46.png', alt='Fruto de color vinotinto	')
+                  td 
+                    img.img-t(src='@/assets/curso/images/tema2/img_47.png', alt='Fruto de color mitad vinotinto y mitad morada	')
+                  td 
+                    img.img-t(src='@/assets/curso/images/tema2/img_48.png', alt='Fruto de color morado oscuro')
+                tr
+                  td Color de Referencia
+                  td 
+                    img.img-t(src='@/assets/curso/images/tema2/img_49.png', alt='Fruto de color amarillo verdoso con drupillas de color rosado	')
+                  td 
+                   img.img-t(src='@/assets/curso/images/tema2/img_50.png', alt='GMFruto de color amarilloso en el que se incrementa el color rosado	2')
+                  td 
+                   img.img-t(src='@/assets/curso/images/tema2/img_51.png', alt='Fruto de color rojo claro	')
+                  td 
+                    img.img-t(src='@/assets/curso/images/tema2/img_52.png', alt='Fruto de color vinotinto	')
+                  td 
+                    img.img-t(src='@/assets/curso/images/tema2/img_53.png', alt='Fruto de color mitad vinotinto y mitad morada	')
+                  td 
+                   img.img-t(src='@/assets/curso/images/tema2/img_54.png', alt='Fruto de color morado oscuro')
+
 
 </template>
 

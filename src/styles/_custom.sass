@@ -156,8 +156,29 @@
 .horizontal-scroll
     align-items: stretch!important
 
+.tabla-a thead
+  border: 0 none
+
 .bg1
-    background: #FFA686
+    background-color:#FFA686
+.tabla-a thead
+    background-color:#FFA686
+.bg_white
+    background-color:#FFFFFF
+.bg-color-secundario
+    background-color:#ADCE32
+.bg-lightorange
+    background-color: #FFF6F3
+.bg-lightyellow
+  background-color: #FFFAE3
+.bg-lightyellow:before
+    background-color: #FFD947
+.min-100
+  min-width: 100%!important
+
+.linea-tiempo-d__item--selected
+  .linea-tiempo-d__item__content
+      background: #FFF6F3!important
 
 .bg-color-1
   background-image: url("../assets/curso/images/tema1/ico_new_1.svg") !important
@@ -798,6 +819,8 @@
     height: 100% !important
     width: 100% !important
     opacity: 90%
+    @media (max-width: 900px)
+      padding: 4% 10% 53% 10%
   .nuevosize1
     position: absolute
     @media (max-width: 1400px)
