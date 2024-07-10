@@ -83,7 +83,7 @@
    
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7.mb-3
-        .cajon.color-acento-botones.p-3.ps-4.bg_18.mb-4.mb-lg-0
+        .cajon.bg-lightyellow.p-3.ps-4.bg_18.mb-4.mb-lg-0
           p.mt-3.p-1 La información del etiquetado puede estar registrada en uno o más idiomas y es muy común el uso de símbolos o pictogramas como se observa en la siguiente figura, que son regulados y empleados a nivel internacional, proporcionan indicaciones principalmente para la manipulación de acuerdo con las características físicas, químicas del producto. Además, existe una clasificación y simbología para productos peligrosos de acuerdo con diferentes tipos de riesgos, como por ejemplo tóxico, infeccioso, material radiactivo, gas inflamable, líquido inflamable, sólido inflamable, combustión espontánea, gas tóxico, peligro cuando está mojado y peróxido orgánico.
       .col-lg-5
         figure
