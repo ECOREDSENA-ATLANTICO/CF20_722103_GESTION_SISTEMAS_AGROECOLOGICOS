@@ -52,7 +52,7 @@
               img(src="@/assets/curso/images/tema4/img_5.png", alt="Imagen Decorativa")
           .crd_hover_txt--body
             h4.mb-3.text-secundario Tiempo
-            p.mb-0.text-white ahorro de tiempo al consumidor, puesto que le transmite de manera rápida el mensaje que busca.
+            p.mb-0.text-white Ahorro de tiempo al consumidor, puesto que le transmite de manera rápida el mensaje que busca.
 
       .col-md-4.mb-3.col-xl-2.col-lg-3
         .crd_hover_txt(data-aos="flip-left")
@@ -61,7 +61,7 @@
               img(src="@/assets/curso/images/tema4/img_6.png", alt="Imagen Decorativa")
           .crd_hover_txt--body
             h4.mb-3.text-secundario Elección
-            p.mb-0.text-white facilitar al comprador y al consumidor final su elección de compra.
+            p.mb-0.text-white Facilitar al comprador y al consumidor final su elección de compra.
 
       .col-md-4.mb-3.col-xl-2.col-lg-3
         .crd_hover_txt(data-aos="flip-left")
