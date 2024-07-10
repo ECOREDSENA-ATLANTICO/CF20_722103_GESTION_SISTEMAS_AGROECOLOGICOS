@@ -25,7 +25,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/images/tema3/img_3.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.m-0 Esta capa artificial o recubrimiento funciona como una barrera que brinda protección contra patógenos y factores ambientales, mejora la apariencia del producto ya que proporciona brillo, retarda el envejecimiento al controlar la respiración y minimizar la deshidratación, debido que se controla la transferencia de humedad, de gases como el oxígeno O2, dióxido de carbono CO2 y etileno, además incorpora ingredientes funcionales como antioxidantes, antimicrobianos, colorantes y sabores, como se muestra a continuación:
+        p.m-0 Esta capa artificial o recubrimiento funciona como una barrera que brinda protección contra patógenos y factores ambientales, mejora la apariencia del producto ya que proporciona brillo, retarda el envejecimiento al controlar la respiración y minimizar la deshidratación, debido que se controla la transferencia de humedad, de gases como el oxígeno O2, dióxido de carbono CO2 y etileno, además incorpora ingredientes funcionales como antioxidantes, antimicrobianos, colorantes y sabores, como se detalla a continuación:
           
     .row.justify-content-center.align-items-center.mb-5
       .tarjeta.tarjeta--blanca.p-4.col-lg-10
@@ -53,103 +53,118 @@
           p.p-2 Por tanto, aunque las características y propiedades de películas y recubrimientos están enfocadas a reducir el deterioro y perecibilidad de los alimentos, se generan otras ventajas funcionales que dan un valor agregado a los productos, como se plantean a continuación:
     
     .row.justify-content-center.align-items-center.mb-5
-      .col-md-6  
-        .tarjeta-avatar-b.mb-3
-          .tarjeta-avatar-b__img
-            img.img-t.m-auto(src='@/assets/curso/images/tema3/img_6.svg', alt='1')
-          .tarjeta.color-secundario-claro.shadow-sm
-            p.mt-2.text-bold Incrementar vida útil
-            p.mt-2 Al formar una barrera protectora física contra el ataque de microorganismos.
-        
-        .tarjeta-avatar-b.mb-3
-          .tarjeta-avatar-b__img
-            img.img-t.m-auto(src='@/assets/curso/images/tema3/img_7.svg', alt='2')
-          .tarjeta.color-secundario-claro.shadow-sm
-            p.mt-2.text-bold Perservar textura
-            p.mt-2 Son protectores de la acción física, química y mecánica (mejoran sus propiedades).
-        
-        .tarjeta-avatar-b.mb-3
-          .tarjeta-avatar-b__img
-            img.img-t.m-auto(src='@/assets/curso/images/tema3/img_8.svg', alt='3')
-          .tarjeta.color-secundario-claro.shadow-sm
-            p.mt-2.text-bold Reducir pérdida de agua
-            p.mt-2 Reducen la tasa de respiración durante el periodo de almacenamiento.
-        
-        .tarjeta-avatar-b.mb-3
-          .tarjeta-avatar-b__img
-            img.img-t.m-auto(src='@/assets/curso/images/tema3/img_9.svg', alt='4')
-          .tarjeta.color-secundario-claro.shadow-sm
-            p.mt-2.text-bold Proporcionar propiedades sensoriales
-            p.mt-2Son transparentes, no son detectados durante su consumo.
-                      
-        .tarjeta-avatar-b.mb-3
-          .tarjeta-avatar-b__img
-            img.img-t.m-auto(src='@/assets/curso/images/tema3/img_10.svg', alt='5')
-          .tarjeta.color-secundario-claro.shadow-sm
-            p.mt-2.text-bold Seguridad para la salud
-            p.mt-2 No son tóxicos ni inflamables.
-                      
-      .col-lg-6
-        .tarjeta-avatar-b.mb-3
-          .tarjeta-avatar-b__img
-            img.img-t.m-auto(src='@/assets/curso/images/tema3/img_11.svg', alt='6')
-          .tarjeta.color-secundario-claro.shadow-sm
-            p.mt-2.text-bold Seguridad al consumirlos 
-            p.mt-2 Al formar una barrera protectora física contra el ataque de microorganismos.
-        
-        .tarjeta-avatar-b.mb-3
-          .tarjeta-avatar-b__img
-            img.img-t.m-auto(src='@/assets/curso/images/tema3/img_12.svg', alt='7')
-          .tarjeta.color-secundario-claro.shadow-sm
-            p.mt-2.text-bold Tecnología
-            p.mt-2 Lubrica la superficie de la fruta u hortaliza y sellan los rasguños o cortes que se producen en la piel. 
-        
-        .tarjeta-avatar-b.mb-3
-          .tarjeta-avatar-b__img
-            img.img-t.m-auto(src='@/assets/curso/images/tema3/img_13.svg', alt='8')
-          .tarjeta.color-secundario-claro.shadow-sm
-            p.mt-2.text-bold Facilidad de aplicación 
-            p.mt-2 Se pueden aplicar mediante una variedad de procesos, incluso de forma manual. 
+      .col-md-6.col-xs-12 
 
         .tarjeta-avatar-b.mb-3
           .tarjeta-avatar-b__img
-            img.img-t.m-auto(src='@/assets/curso/images/tema3/img_14.svg', alt='9')
-          .tarjeta.color-secundario-claro.shadow-sm
-            p.mt-2.text-bold Costo
-            p.mt-2 No son costosos.
+            img(src='@/assets/curso/images/tema3/img_6.svg' alt='1')
+          .tarjeta.color-secundario-claro
+            .p-4
+              h5 Incrementar vida útil 
+              p.mb-0 Al formar una barrera protectora física contra el ataque de microorganismos.
+
+        .tarjeta-avatar-b.mb-3
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/images/tema3/img_7.svg' alt='2')
+          .tarjeta.color-secundario-claro
+            .p-4
+              h5 Perservar textura
+              p.mb-0 Son protectores de la acción física, química y mecánica (mejoran sus propiedades).
+
+        .tarjeta-avatar-b.mb-3
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/images/tema3/img_8.svg' alt='3')
+          .tarjeta.color-secundario-claro
+            .p-4
+              h5 Reducir pérdida de agua
+              p.mb-0 Reducen la tasa de respiración durante el periodo de almacenamiento.
+
+        .tarjeta-avatar-b.mb-3
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/images/tema3/img_9.svg' alt='4')
+          .tarjeta.color-secundario-claro
+            .p-4
+              h5 Proporcionar propiedades sensoriales
+              p.mb-0 Son transparentes, no son detectados durante su consumo.
+
+        .tarjeta-avatar-b.mb-3
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/images/tema3/img_10.svg' alt='5')
+          .tarjeta.color-secundario-claro
+            .p-4
+              h5 Seguridad para la salud
+              p.mb-0 No son tóxicos ni inflamables.
+
+      .col-md-6.col-xs-12
+        .tarjeta-avatar-b.mb-3
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/images/tema3/img_11.svg' alt='6')
+          .tarjeta.color-secundario-claro
+            .p-4
+              h5 Seguridad al consumirlos
+              p.mb-0 Lubrica la superficie de la fruta u hortaliza y sellan los rasguños o cortes que se producen en la piel.
+
+        .tarjeta-avatar-b.mb-3
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/images/tema3/img_12.svg' alt='7')
+          .tarjeta.color-secundario-claro
+            .p-4
+              h5 Tecnología
+              p.mb-0 La Tecnología para su elaboración es simple.
+
+        .tarjeta-avatar-b.mb-3
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/images/tema3/img_13.svg' alt='8')
+          .tarjeta.color-secundario-claro
+            .p-4
+              h5 Facilidad de aplicación
+              p.mb-0 Se pueden aplicar mediante una variedad de procesos, incluso de forma manual.
+
+        .tarjeta-avatar-b.mb-3
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/images/tema3/img_14.svg' alt='9')
+          .tarjeta.color-secundario-claro
+            .p-4
+              h5 Costo
+              p.mb-0 No son costosos.
                       
         img.mb-4.mt-5.img-t.m-auto(src='@/assets/curso/images/tema3/img_15.svg', alt='Imagen Decorativa')
     
     p.text-bold.mb-5.text-center Aunque existen diversos productos y formulaciones con los cuales se elabora los recubrimientos y películas, como, por ejemplo:
 
     .row.mb-5
-      .col-md-3
-        .tarjeta-avatar-b.mb-3.h-100
-          .tarjeta-avatar-b__img
-            img.img-t.m-auto(src='@/assets/curso/images/tema3/img_16.png', alt='Imagen Decorativa')
-          .tarjeta.shadow-sm.bg_white.d-flex.align-items-center
-            p.text-bold.p-3.mb-0 Aceites
 
-      .col-md-3
-        .tarjeta-avatar-b.mb-3.h-100
+      .col-md-6.col-lg-3
+        .tarjeta-avatar-b.mb-3
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/images/tema3/img_16.png', alt='Imagen Decorativa')
+          .tarjeta.bg_white.shadow-sm
+            .p-4
+              p.text-bold.mb-0 Aceites.
+
+      .col-md-6.col-lg-3
+        .tarjeta-avatar-b.mb-3
           .tarjeta-avatar-b__img
             img.img-t.m-auto(src='@/assets/curso/images/tema3/img_17.png', alt='Imagen Decorativa')
-          .tarjeta.shadow-sm.bg_white.d-flex.align-items-center
-            p.text-bold.p-3.mb-0 Vegetales
+          .tarjeta.shadow-sm.bg_white
+            .p-4
+              p.text-bold.mb-0 Vegetales.
 
-      .col-md-3
-        .tarjeta-avatar-b.mb-3.h-100
+      .col-md-6.col-lg-3
+        .tarjeta-avatar-b.mb-3
           .tarjeta-avatar-b__img
             img.img-t.m-auto(src='@/assets/curso/images/tema3/img_18.png', alt='Imagen Decorativa')
-          .tarjeta.shadow-sm.bg_white.d-flex.align-items-center
-            p.text-bold.p-3.mb-0 Resinas
+          .tarjeta.shadow-sm.bg_white
+            .p-4
+              p.text-bold.mb-0 Resinas.
 
-      .col-md-3
-        .tarjeta-avatar-b.mb-3.h-100
+      .col-md-6.col-lg-3
+        .tarjeta-avatar-b.mb-3
           .tarjeta-avatar-b__img
             img.img-t.m-auto(src='@/assets/curso/images/tema3/img_19.png', alt='Imagen Decorativa')
-          .tarjeta.shadow-sm.bg_white.d-flex.align-items-center
-            p.text-bold.p-3.mb-0 Emulsionantes: como el ácido oléico.
+          .tarjeta.shadow-sm.bg_white
+            .p-4
+              p.text-bold.mb-0 Emulsionantes: como el ácido oléico.
 
       
     .row.justify-content-center.align-items-center.mb-5
@@ -187,40 +202,34 @@
           
     p.text-bold.mb-5.text-center En tal sentido, existen diferentes métodos para elaborarlos entre las que se destacan:
     
-    .row.justify-content-center.mb-5    
-      .col-lg-3
-        .tarjeta.bg1
-          .row.justify-content-center
-            .col-12
-              img(src='@/assets/curso/images/tema3/img_26.png' alt='AvatarTop')
-          p.p-4.text-center Gelación térmica 
-      
-      .col-lg-3
-        .tarjeta.jumbotron 
-          .row.justify-content-center
-            .col-12
-              img(src='@/assets/curso/images/tema3/img_25.png' alt='AvatarTop')
-          p.p-4.text-center Solidificación
-      
-      .col-lg-3
-        .tarjeta.jumbotron 
-          .row.justify-content-center
-            .col-12
-              img(src='@/assets/curso/images/tema3/img_24.png' alt='AvatarTop')
-          p.p-4.text-center Microfluidización 
-      
-      .col-lg-3
-        .tarjeta.jumbotron 
-          .row.justify-content-center
-            .col-12
-              img(src='@/assets/curso/images/tema3/img_23.png' alt='AvatarTop')
-          p.p-4.text-center Pulverización electrohidrodinámica
+    .row.justify-content-center.align-items-center.mb-5
+      .col-md-6.mb-3.col-lg-3
+        .card.bg-lightgreen
+          img.c-img(src='@/assets/curso/images/tema3/img_26.png' alt='...')
+          .card-body
+            p.mb-0.text-center Gelación térmica
+      .col-md-6.mb-3.col-lg-3
+        .card.bg-lightgreen
+          img.c-img(src='@/assets/curso/images/tema3/img_25.png' alt='...')
+          .card-body
+            p.mb-0.text-center Solidificación
 
-    
+      .col-md-6.mb-3.col-lg-3
+        .card.bg-lightgreen
+          img.c-img(src='@/assets/curso/images/tema3/img_24.png' alt='...')
+          .card-body
+            p.mb-0.text-center Microfluidización
+      .col-md-6.mb-3.col-lg-3
+        .card.bg-lightgreen
+          img.c-img(src='@/assets/curso/images/tema3/img_23.png' alt='...')
+          .card-body
+            p.mb-0.text-center Pulverización electrohidrodinámica
+
+
     
     p.text-bold.mb-5.text-center Como también existen diversas formas de aplicarlos, mediante:
     
-    .row.mb-5
+    .row.justify-content-center.align-items-center.mb-5
       .col-md-3
         .tarjeta-avatar-b.mb-3.h-100
           .tarjeta-avatar-b__img

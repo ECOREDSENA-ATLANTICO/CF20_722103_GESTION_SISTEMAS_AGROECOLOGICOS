@@ -35,6 +35,7 @@
 
 
     .row.justify-content-center.mb-5.text-center
+      
       .col-md-4.mb-3.col-xl-2.col-lg-3
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img

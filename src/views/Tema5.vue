@@ -96,7 +96,7 @@
           img.img-t.m-auto(src='@/assets/curso/images/tema5/img_11.svg', alt='Imagen Decorativa')
       .col-lg-9.mb-3(data-aos="fade-left")
         .cajon.color-acento-contenido.p-4.ps-5.bg_18.mb-4.mb-lg-3
-          p.m-0 Otros insumos que cabe mencionar son el guardián colector y bolsa recolectora con sus respectivos colores de acuerdo con la reglamentación vigente el cual es importante para depositar materiales peligrosos. Una nevera portátil será de gran utilidad para el transporte de vacunas o muestras y jeringas desechables de acuerdo con su acción junto con un botiquín de primeros auxilios.
+          p.m-0 También se pueden llevar a cabo procesos de almacenamiento con condiciones de temperatura y humedad ideales y requeridas para prolongar la vida de anaquel, debido a que existen productos perecederos que necesitan ser conservados, mediante el control de forma artificial de la temperatura, es decir por medio del almacenamiento con enfriamiento, ya que como denota Camelo, A. (2003), las temperaturas bajas reducen la actividad enzimática y minimizan el desarrollo y crecimiento de microorganismos culpables del deterioro, debido a que se detiene la maduración, se minimiza el ritmo respiratorio y la deshidratación.
         p.mb-4 Pero se debe tener presente, que una inapropiada utilización de las bajas temperaturas genere el efecto contrario a lo deseado, es decir aligera la degradación de la calidad de los productos, ya que una exposición prolongada al frío genera congelamiento y por ende formación de cristales que afectan la estructura porque se destruyen los tejidos de forma permanente, reflejado a la hora de descongelarse signos como:
         
         .row 

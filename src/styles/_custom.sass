@@ -72,6 +72,7 @@
   padding: 0 !important
   text-align: center
 
+
 .cs
   overflow-y: hidden
 
@@ -159,6 +160,8 @@
 .tabla-a thead
   border: 0 none
 
+  
+  // Background Colors
 .bg1
     background-color:#FFA686
 .tabla-a thead
@@ -167,6 +170,10 @@
     background-color:#FFFFFF
 .bg-color-secundario
     background-color:#ADCE32
+.bg-darkgreen
+  background-color:#0B481E
+.bg-lightgreen
+    background-color:#deebad
 .bg-lightorange
     background-color: #FFF6F3
 .bg-lightyellow
@@ -175,6 +182,20 @@
     background-color: #FFD947
 .min-100
   min-width: 100%!important
+
+
+
+.card
+  border-radius: 10px
+  border: 0 none
+  img
+    border-radius: 10px 10px 0 0
+  .card-body
+    min-height: 80px
+    display: flex
+    align-items: center
+    justify-content: center
+
 
 .linea-tiempo-d__item--selected
   .linea-tiempo-d__item__content
@@ -767,74 +788,31 @@
   width: max-content
 
 
-
-///////// Card hover
+///////// Card hover --------------------------------------
 
 .crd_hover_txt
   position: relative  
   padding: 0 !important
-  overflow: hidden !important 
-  border-top-left-radius:  10px !important
-  border-top-right-radius:  10px !important
-  border-bottom-left-radius:  10px !important
-  border-bottom-right-radius:  10px !important 
+  overflow: hidden !important  
   &:hover    
-    .crd_hover_txt--body
-      position: absolute
-      padding: 30% 10% 33% 10%
-      bottom: 0 
+    .crd_hover_txt--body   
       transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
       transform: translateY(0)
-      @media (max-width: 1200px)
-        padding: 30% 10% 40% 10%
-    .nuevosize
-      padding: 5% 5% 15% 5%
-      @media (max-width: 1200px)
-        padding: 8% 5% 5% 5%
-      @media (max-width: 991px)
-        padding: 3% 5% 15% 5%
-      @media (max-width: 576px)
-        padding: 20% 5% 15% 5%
-      @media (max-width: 450px)
-        padding: 3% 5% 0 5%
-    .nuevosize1
-      padding: 25% 5% 15% 5%
-      @media (max-width: 1200px)
-        padding: 25% 10% 5% 10%
-      @media (max-width: 991px)
-        padding: 20% 5% 15% 5%
-      @media (max-width: 768px)
-        padding: 20% 5% 15% 5%
-      @media (max-width: 576px)
-        padding: 10% 5% 15% 5%
-      @media (max-width: 450px)
-        padding: 20% 5% 0 5%
+
   .crd_hover_txt--body
     position: absolute
-    padding: 6% 10% 53% 10%
+    padding: 1.5rem
     bottom: 0    
     transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
-    transform: translateY(calc( 100% - 2.95rem ))
-    background: rgb(11,72,30) 50%
-    height: 100% !important
-    width: 100% !important
-    opacity: 90%
-    @media (max-width: 900px)
-      padding: 4% 10% 53% 10%
-  .nuevosize1
-    position: absolute
-    @media (max-width: 1400px)
-      padding: 6% 5% 15% 5%
-    @media (max-width: 1200px)
-      padding: 5% 5% 5% 5%
-    @media (max-width: 991px)
-      padding: 5% 5% 15% 5%
-    @media (max-width: 768px)
-      padding: 5% 5% 15% 5%
-    @media (max-width: 576px)
-      padding: 5% 5% 15% 5%
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color:#0B481E
+    width: 100%
+      
+  
   @media (min-width:1200px) and (max-width:1400px)  
-
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
 
 .color-text
   color: #0B481E

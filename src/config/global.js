@@ -210,7 +210,7 @@ export default {
         'Thompson, A. K. (1998). Tecnología post-cosecha de frutas y hortalizas.',
       tipo: 'Libro',
       link:
-        'https://repositorio.sena.edu.co/bitstream/handle/11404/6488/tecnologia_post_cosecha_frutas_hortalizas.pdf?sequence=1&isAllowed=y',
+        'https://biblioteca.unimeta.edu.co/cgi-bin/koha/opac-detail.pl?biblionumber=17677&shelfbrowse_itemnumber=22213',
     },
     {
       tema: 'Poscosecha',

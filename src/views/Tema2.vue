@@ -48,7 +48,7 @@
 
     .row.align-items-center.mb-4
       .col-lg-7(data-aos="fade-right")
-        .cajon.color-acento-botones.p-4.ps-5.bg_18.mb-4.mb-lg-0
+        .cajon.bg-lightyellow.p-4.ps-5.bg_18.mb-4.mb-lg-0
           p.p-2 Teniendo en cuenta que se requiere una adecuada calidad inicial debido a la calidad final obtenida, está directamente relacionada con las cualidades y condiciones con que llega el producto al proceso de poscosecha, además de higiene y sanidad durante todo el proceso de acondicionamiento que asegure la integridad del producto y a su vez la salud de los consumidores. 
       .col-lg-5.mb-4.mb-lg-0(data-aos="fade-left")
         figure
@@ -289,13 +289,16 @@
                 tbody.bg_white
                   tr
                     td  
-                      p Mantener prolongadamente la mora en la mano y contener más de 2 frutos, aumenta el deterioro del fruto. 
-                      | Se recomienda reenvasar del recipiente recolector a la canastilla con una altura máxima de 30 cm para evitar daños por compresión y magullamiento de los frutos.
-
+                      p También seleccione para comercialización los frutos que se encuentren libres de:
+                      ul 
+                        li • Moho gris.
+                        li • Frutos caídos.
+                        li • Frutos blandos iniciando proceso de deterioro.
                     td 
                       ul 
                         li • Percepción visual
-                        li • Canastilla para producto dañado        
+                        li • Recipiente colector 
+                        li • Canastilla para producto dañado 
                         
           .row(numero="3" titulo="Daño mecánico: selección y clasificación")
             .col-md-6.mb-3
@@ -344,7 +347,7 @@
                       p Empaque para comercialización de producto clasificado
 
 
-          .row(numero="5" titulo="Daño mecánico: selección y clasificación")
+          .row(numero="5" titulo="Categoría de calidad: Norma")
             p Las siguientes son algunas descripciones según la norma NCT 4601 de las condiciones que deben cumplir los frutos para las categorías de calidad
 
             .tabla-b.mb-3
@@ -402,7 +405,7 @@
           span  Color clasificación de la mora  
               
         .tabla-a.mb-3
-            table.min-100
+            table
               thead.bg1
                 tr
                   td 
