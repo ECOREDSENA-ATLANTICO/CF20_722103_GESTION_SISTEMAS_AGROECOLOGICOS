@@ -48,7 +48,7 @@
 
     .row.align-items-center.mb-4
       .col-lg-7(data-aos="fade-right")
-        .cajon.bg-lightyellow.p-4.ps-5.bg_18.mb-4.mb-lg-0
+        .cajon.color-acento-contenido.p-4.ps-5.bg_18.mb-4.mb-lg-0
           p.p-2 Teniendo en cuenta que se requiere una adecuada calidad inicial debido a la calidad final obtenida, está directamente relacionada con las cualidades y condiciones con que llega el producto al proceso de poscosecha, además de higiene y sanidad durante todo el proceso de acondicionamiento que asegure la integridad del producto y a su vez la salud de los consumidores. 
       .col-lg-5.mb-4.mb-lg-0(data-aos="fade-left")
         figure
