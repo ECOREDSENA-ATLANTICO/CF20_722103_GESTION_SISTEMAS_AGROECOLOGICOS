@@ -36,10 +36,10 @@
 
     .col-lg-10.mb-5.mx-auto
       figure.d-block.d-lg-none
-        img.img-t.mx-auto.mb-2(src='@/assets/curso/images/tema3/img_31m.svg', alt='Muestra las funciones y propiedades de las recubrimientos y películas: Capas de recubrimiento o film. Compuestos volátiles(aroma). Gases 0,/CO/Eleno. Productos frescos. Ingredientes funcionales que pueden incorporase en los recubrimientos.')
+        img.img-t.mx-auto.mb-2(src='@/assets/curso/images/tema3/img_31m.svg', alt='Las funciones y propiedades de recubrimientos y películas. tales como: - Capas de recubrimiento o film - Compuestos volátiles(aroma) - Gases 0,/CO/Eleno - Productos frescos - Ingredientes funcionales que pueden incorporase en los recubrimientos: antioxidantes, antimicrobianos, sabores y colorantes.')
         figcaption Nota. Fernández Valdés, Daybelis, Bautista Baños, Silvia, Fernández Valdés, Dayvis, Ocampo Ramírez, Arturo, García Pereira, Annia, & Falcón Rodríguez, Alejandro. (2015)
       figure.d-none.d-lg-block
-        img.img-t.mx-auto.mb-2(src='@/assets/curso/images/tema3/img_31.svg', alt='Muestra las funciones y propiedades de las recubrimientos y películas: Capas de recubrimiento o film. Compuestos volátiles(aroma). Gases 0,/CO/Eleno. Productos frescos. Ingredientes funcionales que pueden incorporase en los recubrimientos.')
+        img.img-t.mx-auto.mb-2(src='@/assets/curso/images/tema3/img_31.svg', alt='Las funciones y propiedades de recubrimientos y películas. tales como: - Capas de recubrimiento o film - Compuestos volátiles(aroma) - Gases 0,/CO/Eleno - Productos frescos - Ingredientes funcionales que pueden incorporase en los recubrimientos: antioxidantes, antimicrobianos, sabores y colorantes.')
         figcaption Nota. Fernández Valdés, Daybelis, Bautista Baños, Silvia, Fernández Valdés, Dayvis, Ocampo Ramírez, Arturo, García Pereira, Annia, & Falcón Rodríguez, Alejandro. (2015)
        
          

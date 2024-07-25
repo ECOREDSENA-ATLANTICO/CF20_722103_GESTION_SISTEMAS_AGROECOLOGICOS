@@ -14,7 +14,7 @@
         p.mb-3 Estimado aprendiz, le damos la bienvenida a este componente formativo, donde encontrará información relacionada con actividades requeridas para el acondicionamiento, almacenamiento, conservación y posterior distribución de los productos cosechados:
       
         .video
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/25AmFl49eak?si=gJO-T9AkeaB6iKbW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/wHk5KFJUKpY?si=ed7eVIrLFhfZDS6f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 </template>
 

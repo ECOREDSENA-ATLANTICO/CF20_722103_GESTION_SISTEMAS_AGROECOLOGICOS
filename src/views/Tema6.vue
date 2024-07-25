@@ -22,12 +22,12 @@
           h5 Figura 6.
           span Sentidos de la trazabilidad
         figure.d-block.d-lg-none
-          img.mb-3(src='@/assets/curso/images/tema6/img_2m.svg', alt='Muestra la figura los sentidos de la trazabilidad: Ascendentes, Descendentes, Trazabilidad hacia adelante, Trazabilidad hacia atrás')
+          img.mb-3(src='@/assets/curso/images/tema6/img_2m.svg', alt='La figura explica los sentidos de la trazabilidad: - Ascendentes. - Descendentes. - Trazabilidad hacia adelante. - Trazabilidad hacia atrás. - Trazabilidad interna. ')
           figcaption 
             span.text-bold Nota. 
             | Sena 2022
         figure.d-none.d-lg-block
-          img.mb-3(src='@/assets/curso/images/tema6/img_2.svg', alt='Muestra la figura los sentidos de la trazabilidad: Ascendentes, Descendentes, Trazabilidad hacia adelante, Trazabilidad hacia atrás')
+          img.mb-3(src='@/assets/curso/images/tema6/img_2.svg', alt='La figura explica los sentidos de la trazabilidad: - Ascendentes. - Descendentes. - Trazabilidad hacia adelante. - Trazabilidad hacia atrás. - Trazabilidad interna. ')
           figcaption 
             span.text-bold Nota. 
             | Sena 2022
@@ -104,13 +104,13 @@
           span Ámbitos de la trazabilidad
         
         figure.d-block.d-lg-none
-          img.img-t.mx-auto.mb-3(src='@/assets/curso/images/tema6/img_5m.svg',alt='Muestra la figura el Ámbitos de la trazabilidad: Parcela, Recolección, Confección, Transporte, Distribución, Trazabilidad')
+          img.img-t.mx-auto.mb-3(src='@/assets/curso/images/tema6/img_5m.svg',alt='En la figura se detalla los ámbitos de la trazabilidad: - Parcela. - Recolección. - Confección. - Transporte. - Distribución.')
           figcaption 
               span.text-bold Nota. 
               | Sevilla, E., Ortiz, F., & López, M. (2013)
       
         figure.d-none.d-lg-block
-          img.img-t.mx-auto.mb-3(src='@/assets/curso/images/tema6/img_5.svg', alt='Muestra la figura el Ámbitos de la trazabilidad: Parcela, Recolección, Confección, Transporte, Distribución, Trazabilidad')
+          img.img-t.mx-auto.mb-3(src='@/assets/curso/images/tema6/img_5.svg', alt='En la figura se detalla los ámbitos de la trazabilidad: - Parcela. - Recolección. - Confección. - Transporte. - Distribución.')
           figcaption 
               span.text-bold Nota. 
               | Sevilla, E., Ortiz, F., & López, M. (2013)
@@ -146,7 +146,7 @@
           h5 Figura 9.
           span Responsabilidades en la trazabilidad
         figure
-          img.img-t.mb-2(src='@/assets/curso/images/tema6/img_9.svg', alt='Muestra la figura la responsabilidades en la trazabilidad en las empresa y entes de control.')
+          img.img-t.mb-2(src='@/assets/curso/images/tema6/img_9.svg', alt='Responsabilidades en la trazabilidad en las empresas y entes de control. - Empresas: tener implantado el sistema de trazabilidad, disponer de la información necesaria, colaborar con las Autoridades competentes, informar a las Autoridades competentes en caso de que surjan problemas de seguridad de alimentos, proceder a la retirada de los productos. - Entes de control: promover la implantación del sistema de trazabilidad, verificar el cumplimiento de legislación alimentaria, adoptar acciones y medidas conjuntas con las empresas alimentarias para evitar cualquier riesgo a los consumidores, coordinar actuaciones de manera eficaz y efectiva entre todas las Autoridades competentes involucradas, incluso, entre diferentes Unidades de control.')
     
     
     figure.d-flex.align-items-center.mb-4#t_6_2
@@ -178,13 +178,13 @@
           span Principios HACCP
 
         figure.d-block.d-lg-none
-          img.img-t.mx-auto.mb-2(src='@/assets/curso/images/tema6/img_12m.svg', alt='Muestra la figura el Ámbitos de la trazabilidad: Parcela, Recolección, Confección, Transporte, Distribución, Trazabilidad')
+          img.img-t.mx-auto.mb-2(src='@/assets/curso/images/tema6/img_12m.svg', alt='Los principios de análisis de puntos críticos de control(HACCP) en la cadena de producción: 1. Realizar un análisis de peligros. 2. Determinar los puntos críticos de control (PCC). 3. Establecer un límite o límites críticos. 4. Establecer un sistema de vigilancia del control de los PCC. 5. Establecer las medidas correctivas que han de adoptarse cuando la vigilancia indica que un determinado PCC no está controlado. 6. Establecer procedimientos de comprobación para confirmar que el sistema de HACCP funciona eficazmente. 7. Establecer un sistema de documentación sobre todos los procedimientos y los registros apropiados para estos principios y su aplicación.')
           figcaption 
               span.text-bold Nota. 
               | Sistema de análisis de peligros y de puntos críticos de control (HACCP) y directrices para su aplicación. (2021, febrero 9).
       
         figure.d-none.d-lg-block
-          img.img-t.mx-auto.mb-2(src='@/assets/curso/images/tema6/img_12.svg', alt='Muestra la figura el Ámbitos de la trazabilidad: Parcela, Recolección, Confección, Transporte, Distribución, Trazabilidad')
+          img.img-t.mx-auto.mb-2(src='@/assets/curso/images/tema6/img_12.svg',alt='Los principios de análisis de puntos críticos de control(HACCP) en la cadena de producción: 1. Realizar un análisis de peligros. 2. Determinar los puntos críticos de control (PCC). 3. Establecer un límite o límites críticos. 4. Establecer un sistema de vigilancia del control de los PCC. 5. Establecer las medidas correctivas que han de adoptarse cuando la vigilancia indica que un determinado PCC no está controlado. 6. Establecer procedimientos de comprobación para confirmar que el sistema de HACCP funciona eficazmente. 7. Establecer un sistema de documentación sobre todos los procedimientos y los registros apropiados para estos principios y su aplicación.')
           figcaption 
               span.text-bold Nota. 
               | Sistema de análisis de peligros y de puntos críticos de control (HACCP) y directrices para su aplicación. (2021, febrero 9).

@@ -22,7 +22,7 @@
           h5 Figura 3.
           span Identificación de las partes de la etiqueta
         figure
-          img.img-t.m-auto.mb-4(src='@/assets/curso/images/tema4/img_2.svg', alt='Muestra el componente formativo la Identificación de las partes de la etiqueta de la nueva MAYONESA ESA:: Nombre del producto. Lista de ingredientes y aditivos. Peso(neto) volumen o numero de unidades. Instrucciones para la conservación. Identificación del lote. Permisos de transporte de salud. Fecha de vencimiento. País de origen. Modos de empleo. Identificación de la empresa')
+          img.img-t.m-auto.mb-4(src='@/assets/curso/images/tema4/img_2.svg', alt='A continuación se explica las partes de la etiqueta en un producto: - Nombre del producto. - Lista de ingredientes y aditivos. - Peso(neto) volumen o numero de unidades. - Instrucciones para la conservación. - Identificación del lote. - Permisos del Ministerio de salud. - Fecha de vencimiento. - País de origen. - Modos de empleo. - Identificación de la empresa.')
           figcaption Nota. Ospina Arias, J. C. (2015).
         
     .row.justify-content-center.mb-5
@@ -95,7 +95,7 @@
           h5 Figura 4.
           span Simbología y pictogramas empleados en el etiquetado
         figure
-          img.img-t.mb-2(src='@/assets/curso/images/tema4/img_12.svg', alt='Muestra la Simbología y pictogramas empleados en el etiquetado')
+          img.img-t.mb-2(src='@/assets/curso/images/tema4/img_12.svg', alt='Se explica la Simbología y pictogramas empleados en el etiquetado.')
           figcaption Nota. Ospina Arias, J. C. (2015).
           
     .row.justify-content-center.align-items-center.mb-5
@@ -112,7 +112,7 @@
           h5 Figura 5.
           span Herramientas de identificación (Código de barras)
         figure
-          img.img-t.mb-2(src='@/assets/curso/images/tema4/img_14.svg', alt='Muestra la figura las herramientas de identificación (Código de barras): Lineales. Representación de líneas paralelas verticales de distinto grosor y espaciado que, en su conjunta contiene determinada información. El más utilizado es el código EAN (European Article Number), y el más usual es el EAN13, construido por 13 dígitos, y con una estructura dividida en cuatro partes: código del país, código de empresa, código de producto y dígito de control. Bidimensionales: permite almacenar información, se comporta como un archivo que guarda información del producto y sus características. El más frecuente es el código QR; se trata de una matriz diseñada para un escaneo rápido de la información; las aplicaciones que permiten escanearlo están disponibles a nivel de consumidor, a través de los teléfonos móviles').mb-5
+          img.img-t.mb-2(src='@/assets/curso/images/tema4/img_14.svg', alt='Las herramientas de identificación (Código de barras) pueden ser: - Lineales: representación de líneas paralelas verticales de distinto grosor y espaciado que, en su conjunto contiene determinada información. El más utilizado es el código EAN (European Article Number), y el más usual es el EAN13, construido por 13 dígitos y con una estructura dividida en cuatro partes: código del país, código de empresa, código de producto y dígito de control. - Bidimensionales: permite almacenar información, se comporta como un archivo que guarda información del producto y sus características. El más frecuente es el código QR; se trata de una matriz diseñada para un escaneo rápido de la información; las aplicaciones que permiten escanearlo están disponibles a nivel de consumidor, a través de los teléfonos móviles.').mb-5
           figcaption Nota. Permite reconocer rápidamente un artículo de forma única, global en la cadena logística, a través de diversos sistemas de lectura existentes en el mercado (lector láser, CCD, Imagen 2D, entre otros.)..
 
           
