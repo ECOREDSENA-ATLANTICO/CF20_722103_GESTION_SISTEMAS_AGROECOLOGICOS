@@ -131,7 +131,10 @@
           span Importancia y beneficios de la trazabilidad
         figure
           img.img-t.mb-2(src='@/assets/curso/images/tema6/img_7.svg', alt='La figura muestra la Importancia y beneficios de la trazabilidad en las empresas, consumidores y entes de control.')
-                   
+          figcaption 
+            span.text-bold Nota. 
+            | Sena 2022
+
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8.mb-3
         .cajon.color-acento-contenido.p-4.ps-5.bg_18.mb-5.mb-lg-0
@@ -147,7 +150,9 @@
           span Responsabilidades en la trazabilidad
         figure
           img.img-t.mb-2(src='@/assets/curso/images/tema6/img_9.svg', alt='Responsabilidades en la trazabilidad en las empresas y entes de control. - Empresas: tener implantado el sistema de trazabilidad, disponer de la información necesaria, colaborar con las Autoridades competentes, informar a las Autoridades competentes en caso de que surjan problemas de seguridad de alimentos, proceder a la retirada de los productos. - Entes de control: promover la implantación del sistema de trazabilidad, verificar el cumplimiento de legislación alimentaria, adoptar acciones y medidas conjuntas con las empresas alimentarias para evitar cualquier riesgo a los consumidores, coordinar actuaciones de manera eficaz y efectiva entre todas las Autoridades competentes involucradas, incluso, entre diferentes Unidades de control.')
-    
+          figcaption 
+            span.text-bold Nota: 
+            | SENA 2022
     
     figure.d-flex.align-items-center.mb-4#t_6_2
       img.img-t.d-inline-block.align-middle.me-2(src='@/assets/curso/images/tema5/img_7.svg', alt='Imagen Decorativa')

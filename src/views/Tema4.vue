@@ -31,7 +31,7 @@
           img.img-t.m-auto(src='@/assets/curso/images/tema4/img_3.svg', alt='Imagen Decorativa')
       .col-md-11 
         p.mb-0 El etiquetado genera ventajas tanto para la empresa como para el consumidor; debido a que es multifuncional, además de proporcionar información del producto la cual es indispensable para el consumidor, mediante el etiquetado se puede impulsar las compras por medio de promociones y cupones, incluir recetas y diferentes modos de uso, fortalecer la imagen de la empresa, presentar los distintos sellos de calidad o resaltar los atributos que dan un valor agregado al producto. 
-          span.text-bold A continuación, se analizan algunas de sus principales funciones:
+        p.text-bold A continuación, se analizan algunas de sus principales funciones:
 
 
     .row.justify-content-center.mb-5.text-center
@@ -104,7 +104,7 @@
           .tarjeta-avatar-b__img
             img.img-t.m-auto(src='@/assets/curso/images/tema4/img_13.svg', alt='Imagen Decorativa')
           .tarjeta.color-secundario-oscuro.shadow-sm
-            p.p-3.mb-0 Adicionalmente, en las etiquetas ya sean del empaque o embalaje como lo indica Ospina Arias, J. C. (2015), se usan métodos de identificación como códigos que puede ser códigos de barras lineales o bidimensionales, chips o bandas magnéticas, los cuales están compuesto por un símbolo gráfico (barras) y el código que son los números o en ocasiones se emplea un código alfanumérico, el cual varía de acuerdo con el producto, clase de etiqueta y mercado.
+            p.p-3.mb-0 Adicionalmente, en las etiquetas ya sean del empaque o embalaje como lo indica Ospina Arias, J. C. (2015), se usan métodos de identificación como códigos que puede ser códigos de barras lineales o bidimensionales, chips o bandas magnéticas, los cuales están compuestos por un símbolo gráfico (barras) y el código que son los números o en ocasiones se emplea un código alfanumérico, el cual varía de acuerdo con el producto, clase de etiqueta y mercado.
         
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
@@ -113,7 +113,7 @@
           span Herramientas de identificación (Código de barras)
         figure
           img.img-t.mb-2(src='@/assets/curso/images/tema4/img_14.svg', alt='Las herramientas de identificación (Código de barras) pueden ser: - Lineales: representación de líneas paralelas verticales de distinto grosor y espaciado que, en su conjunto contiene determinada información. El más utilizado es el código EAN (European Article Number), y el más usual es el EAN13, construido por 13 dígitos y con una estructura dividida en cuatro partes: código del país, código de empresa, código de producto y dígito de control. - Bidimensionales: permite almacenar información, se comporta como un archivo que guarda información del producto y sus características. El más frecuente es el código QR; se trata de una matriz diseñada para un escaneo rápido de la información; las aplicaciones que permiten escanearlo están disponibles a nivel de consumidor, a través de los teléfonos móviles.').mb-5
-          figcaption Nota. Permite reconocer rápidamente un artículo de forma única, global en la cadena logística, a través de diversos sistemas de lectura existentes en el mercado (lector láser, CCD, Imagen 2D, entre otros.)..
+          figcaption Nota. Permite reconocer rápidamente un artículo de forma única y global en la cadena logística, a través de diversos sistemas de lectura existentes en el mercado (lector láser, CCD, Imagen 2D, entre otros.).
 
           
   </template>

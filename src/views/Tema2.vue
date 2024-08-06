@@ -15,7 +15,7 @@
         figure.d-none.d-lg-block
           img.img-t.mx-auto(src='@/assets/curso/images/tema2/img_1.svg', alt='Recepción, Separación, Limpieza, Selección y Clasificación.')
   
-      p.text-center.mb-5 Estas, se enfocan en preparar los productos para ser:
+      p.text-center.mb-5 Estas se enfocan en preparar los productos para ser:
       .col-lg-8.mb-5
         figure.d-block.d-lg-none
           img.img-t.mx-auto(src='@/assets/curso/images/tema2/img_2m.svg', alt='Empacados, Almacenados, Transportados y Comercializados')
@@ -33,7 +33,7 @@
             .col-md-3
               img.img-t.m-auto(src='@/assets/curso/images/tema2/img_4.svg', alt='Imagen Decorativa')
             .col-md-9
-              p.mt-3.p-1 Como se muestra en la siguiente figura, existen diversos tipos de calidad, que mediante el desarrollo de las actividades de acondicionamiento permiten preservar y potencializar los productos. 
+              p.mt-3.p-1 Como se muestra en la siguiente figura, existen diversos tipos de calidad, que mediante el desarrollo de las actividades de acondicionamiento, permiten preservar y potencializar los productos. 
              
     .row.justify-content-center.align-items-center.mb-5
       .tarjeta.tarjeta--blanca.p-4.col-lg-8
@@ -42,10 +42,15 @@
           span  Calidad en los alimentos     
           
         figure.d-block.d-lg-none
-          img(src='@/assets/curso/images/tema2/img_5m.svg', alt='Muestra el componente formativo la calidad en los alimentos. Estos acondicionamientos permiten preservar y potencializar los productos para su consumo: Calidad agropecuaria, Calidad comercial, Calidad industrial, Calidad nutricional')
+          img.mb-3(src='@/assets/curso/images/tema2/img_5m.svg', alt='Muestra el componente formativo la calidad en los alimentos. Estos acondicionamientos permiten preservar y potencializar los productos para su consumo: Calidad agropecuaria, Calidad comercial, Calidad industrial, Calidad nutricional')
+          figcaption 
+            span.text-bold Fuente: 
+            | SENA
         figure.d-none.d-lg-block
-          img(src='@/assets/curso/images/tema2/img_5.svg', alt='Muestra el componente formativo la calidad en los alimentos. Estos acondicionamientos permiten preservar y potencializar los productos para su consumo: Calidad agropecuaria, Calidad comercial, Calidad industrial, Calidad nutricional')
-
+          img.mb-3(src='@/assets/curso/images/tema2/img_5.svg', alt='Muestra el componente formativo la calidad en los alimentos. Estos acondicionamientos permiten preservar y potencializar los productos para su consumo: Calidad agropecuaria, Calidad comercial, Calidad industrial, Calidad nutricional')
+          figcaption 
+            span.text-bold Fuente: 
+            | SENA
     .row.align-items-center.mb-4
       .col-lg-7(data-aos="fade-right")
         .cajon.color-acento-contenido.p-4.ps-5.bg_18.mb-4.mb-lg-0
@@ -78,7 +83,7 @@
       .col-lg-7(data-aos="fade-right")
         p Entre otras propiedades organolépticas que se pueden percibir y dar una primera impresión de cómo está el producto, además de cómo ha sido el proceso de cosecha, recolección y manipulación que se le ha dado hasta ese momento.
         .cajon.color-secundario.p-3.ps-4.bg_18.mb-4.mb-lg-0
-          p.mt-3.p-1 Es importante durante el proceso de recepción, no sólo inspeccionar las características físicas del producto, sino que también se debe obtener información de:
+          p.mt-3.p-1 Es importante, durante el proceso de recepción, no sólo inspeccionar las características físicas del producto, sino que también se debe obtener información de:
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-2.mb-3
@@ -113,7 +118,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/images/tema2/img_15.png')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 De acuerdo con la verificación de las condiciones con que llega el producto cosechado, se realiza un proceso básico y rápido de separación, que consiste eliminar los productos dañados o con un alto grado de deterioro y así continuar el manejo poscosecha, sólo con los que cumplen con características y condiciones de sanidad y madurez que los hacen aptos para recibirlos. A continuación, se analiza algunas condiciones y características para la selección:
+            p.mb-0 De acuerdo con la verificación de las condiciones con que llega el producto cosechado, se realiza un proceso básico y rápido de separación, que consiste eliminar los productos dañados o con un alto grado de deterioro y así continuar el manejo poscosecha, sólo con los que cumplen con características y condiciones de sanidad y madurez que los hacen aptos para recibirlos. A continuación, se analizan algunas condiciones y características para la selección:
     
     .row.justify-content-center.mb-5
       .col-lg-3.col-lg.mb-3.mb-lg-0
@@ -161,7 +166,7 @@
             .col-md-3
               img.img-t.m-auto(src='@/assets/curso/images/tema2/img_20.svg', alt='Imagen Decorativa')
             .col-md-9
-              p.mt-3.p-1 Una vez separados los productos dañados y seleccionados los que cumplen y están en buenas condiciones se les realiza un proceso de selección que puede realizarse de forma manual o mediante el empleo de equipos y máquinas como:
+              p.mt-3.p-1 Una vez separados los productos dañados y seleccionados, los que cumplen y están en buenas condiciones, se les realiza un proceso de selección que puede realizarse de forma manual o mediante el empleo de equipos y máquinas como:
       .col-lg-5.mb-4.mb-lg-0(data-aos="fade-left")
         figure
           img.img-t.m-auto(src='@/assets/curso/images/tema2/img_21.png', alt='Imagen Decorativa')
@@ -197,13 +202,13 @@
       .col-lg-8
         TabsA.color-secundario
 
-          .tarjeta.color-secundario-claro.p-4.mb-2(titulo="Color, aroma y sabor")
+          .tarjeta.color-secundario-claro.p-4.mb-2(titulo="Color, aroma<br>y sabor")
             p Se pueden medir mediante las características de la carta colorimétrica para cada producto; o mediante los índices de madurez.
           
-          .tarjeta.color-secundario-claro.p-4.mb-2(titulo="Carencia de imperfecciones")
+          .tarjeta.color-secundario-claro.p-4.mb-2(titulo="Carencia de<br>imperfecciones")
             p Las imperfecciones se miden en porcentaje con respecto al total del producto y así clasificar el producto de acuerdo con el mercado.
           
-          .tarjeta.color-secundario-claro.p-4.mb-2(titulo="Madurez óptima")
+          .tarjeta.color-secundario-claro.p-4.mb-2(titulo="Madurez<br>óptima")
             p Según las condiciones exigidas por los compradores, se clasifica para las operaciones de industrialización.
           
           .tarjeta.color-secundario-claro.p-4.mb-2(titulo="Forma")
@@ -213,7 +218,7 @@
         figure
           img.img-t.m-auto(src='@/assets/curso/images/tema2/img_42.png', alt='Imagen Decorativa')
 
-    p Actualmente existen guías para diferentes frutas y hortalizas que facilitan y estandarizan el proceso de selección y clasificación de acuerdo con la normatividad existente, las exigencias del mercado y a los atributos de mayor importancia y relevancia.
+    p Actualmente, existen guías para diferentes frutas y hortalizas que facilitan y estandarizan el proceso de selección y clasificación de acuerdo con la normatividad existente, las exigencias del mercado y a los atributos de mayor importancia y relevancia.
 
     .row.justify-content-center.mb-5
       .col-lg-7.mb-4.mb-lg-0(data-aos="fade-left")
@@ -254,16 +259,16 @@
                   tr
                     td Seleccionar, recolectar y clasificar para comercialización los frutos que se encuentren libres de daños y enfermedades ocasionadas por plagas, como: 
                       ul 
-                        li • Deformación 
-                        li • Larvas 
-                        li • Daños por insectos (arrugas, chupones, mordeduras).
+                        li Deformación. 
+                        li Larvas. 
+                        li Daños por insectos (arrugas, chupones, mordeduras).
                     td 
                       ul 
-                        li • Percepción visual
-                        li • Herramienta de corte
-                        li • Recipiente colector 
-                        li • Canastilla para producto dañado 
-                        li • Empaque para comercialización
+                        li Percepción visual.
+                        li Herramienta de corte.
+                        li Recipiente colector.
+                        li Canastilla para producto dañado. 
+                        li Empaque para comercialización.
 
             p 
               span.text-bold Recomendación: 
@@ -291,14 +296,14 @@
                     td  
                       p También seleccione para comercialización los frutos que se encuentren libres de:
                       ul 
-                        li • Moho gris.
-                        li • Frutos caídos.
-                        li • Frutos blandos iniciando proceso de deterioro.
+                        li Moho gris.
+                        li Frutos caídos.
+                        li Frutos blandos iniciando proceso de deterioro.
                     td 
                       ul 
-                        li • Percepción visual
-                        li • Recipiente colector 
-                        li • Canastilla para producto dañado 
+                        li Percepción visual.
+                        li Recipiente colector.
+                        li Canastilla para producto dañado.
                         
           .row(numero="3" titulo="Daño mecánico: selección y clasificación")
             .col-md-6.mb-3
@@ -323,8 +328,8 @@
                       | Se recomienda reenvasar del recipiente recolector a la canastilla con una altura máxima de 30 cm para evitar daños por compresión y magullamiento de los frutos.
                     td 
                       ul 
-                        li • Percepción visual
-                        li • Canastilla para producto dañado 
+                        li Percepción visual.
+                        li Canastilla para producto dañado.
           
           .row(numero="4" titulo="Categoría de calidad: selección y clasificación")
                   
@@ -344,7 +349,7 @@
                     td  
                       p Clasificar las moras según lo demande el mercado de comercialización.
                     td 
-                      p Empaque para comercialización de producto clasificado
+                      p Empaque para comercialización de producto clasificado.
 
 
           .row(numero="5" titulo="Categoría de calidad: Norma")

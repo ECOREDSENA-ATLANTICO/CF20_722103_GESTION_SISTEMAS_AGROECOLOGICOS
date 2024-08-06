@@ -25,7 +25,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/images/tema3/img_3.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.m-0 Esta capa artificial o recubrimiento funciona como una barrera que brinda protección contra patógenos y factores ambientales, mejora la apariencia del producto ya que proporciona brillo, retarda el envejecimiento al controlar la respiración y minimizar la deshidratación, debido que se controla la transferencia de humedad, de gases como el oxígeno O2, dióxido de carbono CO2 y etileno, además incorpora ingredientes funcionales como antioxidantes, antimicrobianos, colorantes y sabores, como se detalla a continuación:
+        p.m-0 Esta capa artificial o recubrimiento funciona como una barrera que brinda protección contra patógenos y factores ambientales, mejora la apariencia del producto, ya que proporciona brillo, retarda el envejecimiento al controlar la respiración y minimizar la deshidratación, debido a que se controla la transferencia de humedad, de gases como el oxígeno O2, dióxido de carbono CO2 y etileno, además incorpora ingredientes funcionales como antioxidantes, antimicrobianos, colorantes y sabores, como se detalla a continuación:
           
     .row.justify-content-center.align-items-center.mb-5
       .tarjeta.tarjeta--blanca.p-4.col-lg-10
@@ -130,7 +130,7 @@
                       
         img.mb-4.mt-5.img-t.m-auto(src='@/assets/curso/images/tema3/img_15.svg', alt='Imagen Decorativa')
     
-    p.text-bold.mb-5.text-center Aunque existen diversos productos y formulaciones con los cuales se elabora los recubrimientos y películas, como, por ejemplo:
+    p.text-bold.mb-5.text-center Aunque existen diversos productos y formulaciones con los cuales se elaboran los recubrimientos y películas, como, por ejemplo:
 
     .row.mb-5
 
@@ -200,7 +200,7 @@
         figure
           img.img-t.m-auto(src='@/assets/curso/images/tema3/img_20.png', alt='')
           
-    p.text-bold.mb-5.text-center En tal sentido, existen diferentes métodos para elaborarlos entre las que se destacan:
+    p.text-bold.mb-5.text-center En tal sentido, existen diferentes métodos para elaborarlos, entre los que se destacan:
     
     .row.justify-content-center.align-items-center.mb-5
       .col-md-6.mb-3.col-lg-3

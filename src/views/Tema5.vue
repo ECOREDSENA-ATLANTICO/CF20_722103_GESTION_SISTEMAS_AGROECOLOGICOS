@@ -21,7 +21,7 @@
             .col-md-10
               p.mt-3.p-1 Adicionalmente, el almacenamiento permite estabilizar y regular los procesos de oferta y demanda, debido a que se da un control en la comercialización, al guardar producto para aprovisionar en el tiempo de no cosecha.
       p.mt-1 No obstante, como lo indica Borrero Ortiz, M., & Urrea López, M. (2007), se debe tener presente y proveer las condiciones adecuadas durante el almacenamiento para evitar la continuidad de los procesos desarrollo propios de los productos, como, por ejemplo, enraizamiento, germinación de semillas, enverdecimiento, brotación y crecimiento o alargamiento.
-        span.text-bold  A continuación, se exponen algunos procesos metabólicos que se presentan después de la poscosecha:
+      p.text-bold  A continuación, se exponen algunos procesos metabólicos que se presentan después de la poscosecha:
           
     TabsC.color-primario.mb-5
       .py-3.py-md-4(titulo="Brotado")
@@ -50,7 +50,7 @@
               img(src='@/assets/curso/images/tema5/img_5.png', alt='Imagen Decorativa')
           .col-md-6.mb-4.mb-md-0
             h4.mt-5 Enraizamiento
-            p Puede presentarse por condiciones de humedad elevada. Genera descomposición rápida, arrugamiento y agotamiento de reservas alimenticias en tubérculos y raíces
+            p Puede presentarse por condiciones de humedad elevada. Genera descomposición rápida, arrugamiento y agotamiento de reservas alimenticias en tubérculos y raíces.
         
       .py-3.py-md-4(titulo="Enverdecimiento")
         .row
@@ -85,7 +85,7 @@
   
     .row.align-items-center.mb-4
       .col-lg-7(data-aos="fade-right")
-        p Existen diversas técnicas de almacenamiento, entre las que se destacan el almacenamiento denominado común, donde los productos se conservar bajo condiciones ambientales naturales, durante el tiempo que se mantengan las características propias (sensoriales, nutricionales, físicas, químicas) o se produzcan alteraciones mínimas, ya que existen frutas y hortalizas como la papa, ajo y cítricos que se mantienen sin ningún tratamiento por un tiempo prolongado. Para lo cual se puede aprovechar la ventilación natural y así asegurar unas mejores condiciones. Pero, esta técnica de almacenamiento es arriesgada porque no existe control sobre el ambiente (temperatura y humedad)
+        p Existen diversas técnicas de almacenamiento, entre las que se destacan el almacenamiento denominado común, donde los productos se conservan bajo condiciones ambientales naturales, durante el tiempo que se mantengan las características propias (sensoriales, nutricionales, físicas, químicas) o se produzcan alteraciones mínimas, ya que existen frutas y hortalizas como la papa, ajo y cítricos que se mantienen sin ningún tratamiento por un tiempo prolongado. Para lo cual se puede aprovechar la ventilación natural y así asegurar unas mejores condiciones. Pero, esta técnica de almacenamiento es arriesgada porque no existe control sobre el ambiente (temperatura y humedad).
       .col-lg-5.mb-4.mb-lg-0(data-aos="fade-left")
         figure
           img.img-t.m-auto(src='@/assets/curso/images/tema5/img_9.png', alt='Imagen Decorativa')
@@ -97,7 +97,7 @@
       .col-lg-9.mb-3(data-aos="fade-left")
         .cajon.color-acento-contenido.p-4.ps-5.bg_18.mb-4.mb-lg-3
           p.m-0 También se pueden llevar a cabo procesos de almacenamiento con condiciones de temperatura y humedad ideales y requeridas para prolongar la vida de anaquel, debido a que existen productos perecederos que necesitan ser conservados, mediante el control de forma artificial de la temperatura, es decir por medio del almacenamiento con enfriamiento, ya que como denota Camelo, A. (2003), las temperaturas bajas reducen la actividad enzimática y minimizan el desarrollo y crecimiento de microorganismos culpables del deterioro, debido a que se detiene la maduración, se minimiza el ritmo respiratorio y la deshidratación.
-        p.mb-4 Pero se debe tener presente, que una inapropiada utilización de las bajas temperaturas genere el efecto contrario a lo deseado, es decir aligera la degradación de la calidad de los productos, ya que una exposición prolongada al frío genera congelamiento y por ende formación de cristales que afectan la estructura porque se destruyen los tejidos de forma permanente, reflejado a la hora de descongelarse signos como:
+        p.mb-4 Pero se debe tener presente, que una inapropiada utilización de las bajas temperaturas genere el efecto contrario a lo deseado, es decir alígera la degradación de la calidad de los productos, ya que una exposición prolongada al frío genera congelamiento y por ende formación de cristales que afectan la estructura porque se destruyen los tejidos de forma permanente, reflejado a la hora de descongelarse signos como:
         
         .row 
           .col-md-4
@@ -137,7 +137,7 @@
         figure
           img.img-t.m-auto(src='@/assets/curso/images/tema5/img_13.png', alt='Imagen Decorativa')
       .col-lg-7(data-aos="fade-right")
-        p Cada gas empleado en la atmósfera cumple su función y sus niveles varían de acuerdo a los beneficios o consecuencias que generan, por ejemplo, el oxígeno no están deseado ya que genera oxidación por tanto el nitrógeno se encarga de desplazar, además de que ayuda a minimizar el crecimiento de patógenos; por su parte el dióxido de carbono como disminuye la respiración y frena la acción de metileno hace que los órganos entren en un estado de reposo que favorece porque frena y suspende todos los procesos ayudando a la conservación. Pero, al igual que la temperatura, cuando la concentración de gases no es la propicia, se generan consecuencias negativas, como presencia de sabores y olores desagradables, fermentación y asfixia de tejidos.
+        p Cada gas empleado en la atmósfera cumple su función y sus niveles varían de acuerdo a los beneficios o consecuencias que generan, por ejemplo, el oxígeno no están deseado, ya que genera oxidación, por tanto, el nitrógeno se encarga de desplazar, además de que ayuda a minimizar el crecimiento de patógenos; por su parte el dióxido de carbono como disminuye la respiración y frena la acción de metileno hace que los órganos entren en un estado de reposo que favorece porque frena y suspende todos los procesos ayudando a la conservación. Pero, al igual que la temperatura, cuando la concentración de gases no es la propicia, se generan consecuencias negativas, como presencia de sabores y olores desagradables, fermentación y asfixia de tejidos.
     
     figure.d-flex.align-items-center.mb-4#t_5_2
       img.img-t.d-inline-block.align-middle.me-2(src='@/assets/curso/images/tema5/img_7.svg', alt='Imagen Decorativa')
@@ -145,7 +145,7 @@
   
   
     .row.justify-content-center.align-items-center.mb-5
-      p Existen diversas variables y factores que influyen en el proceso como son las condiciones con que ingresa el producto al almacenamiento, porque la calidad de la conservación se ve afectada por daños físicos, mecánicos, biológicos, químicos. Se requiere que las condiciones de temperatura y humedad estén monitoreadas, controladas y permanezcan constantes durante el ciclo de almacenamiento debido a que variaciones mínimas tanto de aumento como de disminución pueden generar efectos negativos. 
+      p Existen diversas variables y factores que influyen en el proceso, como son las condiciones con que ingresa el producto al almacenamiento, porque la calidad de la conservación se ve afectada por daños físicos, mecánicos, biológicos, químicos. Se requiere que las condiciones de temperatura y humedad estén monitoreadas, controladas y permanezcan constantes durante el ciclo de almacenamiento, debido a que variaciones mínimas tanto de aumento como de disminución pueden generar efectos negativos. 
       .col-lg-7.mb-3
         p Otra variable que tiene influencia en el proceso son las condiciones de higiene y desinfección en los lugares de almacenamiento, por lo que se requiere constantemente realizar limpieza para evitar la proliferación de bacterias, hongos, moho y demás microorganismos que afecten la calidad del producto y puede ocasionar problemas en la salud de los consumidores. 
         .tarjeta.color-secundario-claro-sin-bordes.p-3.ps-4.bg_18.mb-4.mb-lg-0
@@ -160,7 +160,7 @@
 
       .col-md-12  
         .cajon.color-acento-contenido.p-4.ps-5.bg_18.mb-4.mb-lg-0
-          p.m-0 De igual forma se debe usar medidas de seguridad y elementos de protección personal porque existen riesgos asociados como golpes y sepultamiento por caídas de cargas.
+          p.m-0 De igual forma, se debe, usar medidas de seguridad y elementos de protección personal porque existen riesgos asociados como golpes y sepultamiento por caídas de cargas.
         
 
   </template>

@@ -186,7 +186,7 @@ export default {
     {
       termino: 'Película',
       significado:
-        'matriz preformada, obtenida por moldeo, cuyo espesor es siempre es mayor al de los recubrimientos.',
+        'matriz preformada, obtenida por moldeo, cuyo espesor es siempre mayor al de los recubrimientos.',
     },
     {
       termino: 'Recubrimiento',
