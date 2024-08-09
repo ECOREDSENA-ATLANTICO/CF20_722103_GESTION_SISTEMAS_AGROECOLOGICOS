@@ -160,7 +160,7 @@
 
       .col-md-12  
         .cajon.color-acento-contenido.p-4.ps-5.bg_18.mb-4.mb-lg-0
-          p.m-0 De igual forma, se debe, usar medidas de seguridad y elementos de protección personal porque existen riesgos asociados como golpes y sepultamiento por caídas de cargas.
+          p.m-0 De igual forma, se deben usar medidas de seguridad y elementos de protección personal porque existen riesgos asociados como golpes y sepultamiento por caídas de cargas.
         
 
   </template>
